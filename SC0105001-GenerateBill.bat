@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-echo ● [START] SC0105001-GenerateBill.bat
+echo ● [START] %~nx0
 
 if exist cid.txt (	:: 讀取 CID（如果檔案存在）
     set /p CID=<cid.txt
@@ -18,4 +18,4 @@ curl -X POST "http://127.0.0.1:%2/%1/res/SC0105001" ^
 
 
 echo.
-echo ● [END] SC0105001-GenerateBill.bat
+echo ● [END] %~nx0

@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-echo ● [START] SC0106002-DisputeNotation.bat
+echo ● [START] %~nx0
 
 if exist cid.txt (	:: 讀取 CID（如果檔案存在）
     set /p CID=<cid.txt
@@ -18,4 +18,4 @@ curl -X PUT "http://127.0.0.1:%2/%1/res/SC0106002" ^
 
 
 echo.
-echo ● [END] SC0106002-DisputeNotation.bat
+echo ● [END] %~nx0

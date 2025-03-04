@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-echo [START] jersey-monolith.bat
+echo [START] %~nx0
 echo ==========
 echo.
 
@@ -70,15 +70,8 @@ echo.
 
 
 
-
-
-
-
-
-
-:: del cid.txt  :: 刪除暫存檔
 echo ==========
-echo [END] jersey-monolith.bat
+echo [END] %~nx0
 
 pause
 
