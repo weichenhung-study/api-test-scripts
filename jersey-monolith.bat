@@ -1,7 +1,6 @@
 @echo off
 chcp 65001 >nul
-echo [START] %~nx0
-echo ==========
+echo ★ 開始執行匯出 %~nx0 結果檔：執行curl
 echo.
 
 
@@ -13,6 +12,22 @@ set "BATCH_NAME=%~n0"
 
 :: docker container port號
 set "PORT=8071"
+
+:: 取得當前日期與時間
+for /f "tokens=2 delims==." %%I in ('wmic os get localdatetime /value') do set datetime=%%I
+set "YYYYMMDD=%datetime:~0,8%"
+set "HHMMSS=%datetime:~8,6%"
+
+:: 設定目標資料夾與檔案名稱
+set "BASE_DIR=result"
+set "LOG_DIR=%BASE_DIR%\%YYYYMMDD%"
+set "LOG_FILE=%BATCH_NAME%_%YYYYMMDD%%HHMMSS%.txt"
+
+:: 若目錄不存在則建立
+if not exist "%LOG_DIR%" mkdir "%LOG_DIR%"
+
+:: 記錄執行日誌
+set "LOG_PATH=%LOG_DIR%\%LOG_FILE%"
 
 :: URL 路徑
 set "SC0101001-Application=res/SC0101001"
@@ -39,48 +54,42 @@ for /l %%i in (1,1,9) do (
 :: 將身分證號儲存為檔案
 <nul set /p ="!CID!" >cid.txt
 
+:: 執行各步驟並記錄輸出
+(
+    echo [START] %~nx0
+    echo ========== 
+    echo.
+    echo 申請信用卡
+    call SC0101001-Application.bat %BATCH_NAME% %PORT% %SC0101001-Application%
+    echo ----------
+    echo.
+    echo 銀行審核信用卡
+    call SC0102001-Review.bat %BATCH_NAME% %PORT% %SC0102001-Review%
+    echo ----------
+    echo.
+    echo 客戶信用卡開卡
+    call SC0103001-Activation.bat %BATCH_NAME% %PORT% %SC0103001-Activation%
+    echo ----------
+    echo.
+    echo 客戶信用卡消費
+    call SC0104001-Transaction.bat %BATCH_NAME% %PORT% %SC0104001-Transaction%
+    echo ----------
+    echo.
+    echo 消費紀錄區間查詢
+    call SC0106001-TransactionQuery.bat %BATCH_NAME% %PORT% %SC0106001-TransactionQuery%
+    echo ----------
+    echo.
+    echo 客戶爭議款項申請
+    call SC0106002-DisputeNotation.bat %BATCH_NAME% %PORT% %SC0106002-DisputeNotation%
+    echo ----------
+    echo.
+    echo 客戶繳交信用卡費
+    call SC0107001-FeePayment.bat %BATCH_NAME% %PORT% %SC0107001-FeePayment%
+    echo ----------
+    echo.
+    echo ========== 
+    echo [END] %~nx0
+) > "%LOG_PATH%"
 
-:: 申請信用卡
-call SC0101001-Application.bat %BATCH_NAME% %PORT% %SC0101001-Application%
-echo ----------
 echo.
-
-:: 銀行審核信用卡
-call SC0102001-Review.bat %BATCH_NAME% %PORT% %SC0102001-Review%
-echo ----------
-echo.
-
-:: 客戶信用卡開卡
-call SC0103001-Activation.bat %BATCH_NAME% %PORT% %SC0103001-Activation%
-echo ----------
-echo.
-
-:: 客戶信用卡消費
-call SC0104001-Transaction.bat %BATCH_NAME% %PORT% %SC0104001-Transaction%
-echo ----------
-echo.
-
-:: 消費紀錄區間查詢
-call SC0106001-TransactionQuery.bat %BATCH_NAME% %PORT% %SC0106001-TransactionQuery%
-echo ----------
-echo.
-
-:: 客戶爭議款項申請
-call SC0106002-DisputeNotation.bat %BATCH_NAME% %PORT% %SC0106002-DisputeNotation%
-echo ----------
-echo.
-
-:: 客戶繳交信用卡費
-call SC0107001-FeePayment.bat %BATCH_NAME% %PORT% %SC0107001-FeePayment%
-echo ----------
-echo.
-
-
-
-
-
-echo ==========
-echo [END] %~nx0
-
-pause
-
+echo ★ 執行結果已儲存至 %LOG_PATH%
