@@ -12,16 +12,16 @@ setlocal enabledelayedexpansion
 set "BATCH_NAME=%~n0"
 
 :: docker container port號
-set "PORT=8071"
+set "PORT=8072"
 
 :: URL 路徑
-set "SC0101001-Application=res/SC0101001"
-set "SC0102001-Review=res/SC0102001"
-set "SC0103001-Activation=res/SC0103001"
-set "SC0104001-Transaction=res/SC0104001"
-set "SC0106001-TransactionQuery=res/SC0106001"
-set "SC0106002-DisputeNotation=res/SC0106002"
-set "SC0107001-FeePayment=res/SC0107001"
+set "SC0101001-Application=res/Application"
+set "SC0102001-Review=res/Review"
+set "SC0103001-Activation=res/Activation"
+set "SC0104001-Transaction=res/Transaction"
+set "SC0106001-TransactionQuery=res/TransactionQuery"
+set "SC0106002-DisputeNotation=res/DisputeNotation"
+set "SC0107001-FeePayment=res/FeePayment"
 
 :: 定義大寫英文字母
 set "LETTERS=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
