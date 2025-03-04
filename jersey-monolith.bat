@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-echo [START] 1.jersey-monolith.bat
+echo [START] jersey-monolith.bat
 echo ==========
 echo.
 
@@ -30,8 +30,33 @@ call SC0101001-Application.bat
 echo ----------
 echo.
 
-:: 審核信用卡
+:: 銀行審核信用卡
 call SC0102001-Review.bat
+echo ----------
+echo.
+
+:: 客戶信用卡開卡
+call SC0103001-Activation.bat
+echo ----------
+echo.
+
+:: 客戶信用卡消費
+call SC0104001-Transaction.bat
+echo ----------
+echo.
+
+:: 消費紀錄區間查詢
+call SC0106001-TransactionQuery.bat
+echo ----------
+echo.
+
+:: 客戶爭議款項申請
+call SC0106002-DisputeNotation.bat
+echo ----------
+echo.
+
+:: 客戶繳交信用卡費
+call SC0107001-FeePayment.bat
 echo ----------
 echo.
 
@@ -45,18 +70,9 @@ echo.
 
 
 
-
-
-
-
-
-
-
-
-
 :: del cid.txt  :: 刪除暫存檔
 echo ==========
-echo [END] 1.jersey-monolith.bat
+echo [END] jersey-monolith.bat
 
 pause
 
