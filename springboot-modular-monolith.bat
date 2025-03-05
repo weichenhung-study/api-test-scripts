@@ -57,6 +57,8 @@ for /l %%i in (1,1,9) do (
 :: 執行各步驟並記錄輸出
 (
     echo [START] %~nx0
+	for /f "delims=" %%a in ('powershell -Command "[DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds()"') do set start_time=%%a
+	echo 開始時間: !start_time!
     echo ========== 
     echo.
     echo 申請信用卡
@@ -87,6 +89,23 @@ for /l %%i in (1,1,9) do (
     call SC0107001-FeePayment.bat %BATCH_NAME% %PORT% %SC0107001-FeePayment%
     echo ----------
     echo.
+		
+	:: 記錄請求完成的時間
+	for /f "delims=" %%a in ('powershell -Command "[DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds()"') do set end_time=%%a
+	echo 完成時間: !end_time!
+	
+	:: 計算API執行時間（毫秒）
+	set /a sum=0
+	
+	:: 遍歷所有檔名以 SC 開頭的 txt 檔案
+	for %%f in (SC*.txt) do (
+		:: 讀取每個檔案中的數字並加總
+		for /f "tokens=*" %%a in (%%f) do (
+			set /a sum=!sum! + %%a
+		)
+	)
+	echo ☆ API總執行時間: !sum! 毫秒
+	
     echo ========== 
     echo [END] %~nx0
 ) > "%LOG_PATH%"

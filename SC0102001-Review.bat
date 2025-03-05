@@ -3,7 +3,7 @@ chcp 65001 >nul
 echo ● [START] %~nx0
 
 :: 記錄發送請求的時間
-for /f "delims=" %%a in ('powershell -Command "Get-Date -Format 'yyyy-MM-dd HH:mm:ss.fff'"') do set start_time=%%a
+for /f "delims=" %%a in ('powershell -Command "[DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds()"') do set start_time=%%a
 echo 發送請求時間: %start_time%
 
 
@@ -24,11 +24,12 @@ curl -X PUT "http://127.0.0.1:%2/%1/%3" ^
 
 echo.
 :: 記錄請求完成的時間
-for /f "delims=" %%a in ('powershell -Command "Get-Date -Format 'yyyy-MM-dd HH:mm:ss.fff'"') do set end_time=%%a
+for /f "delims=" %%a in ('powershell -Command "[DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds()"') do set end_time=%%a
 echo 完成請求時間: %end_time%
 
 :: 計算執行時間（毫秒）
-for /f "delims=" %%a in ('powershell -Command "(Get-Date).Subtract([datetime]'%start_time%').TotalMilliseconds"') do set duration=%%a
+for /f "delims=" %%a in ('powershell -Command "%end_time% - %start_time%"') do set duration=%%a
 echo ○ 總執行時間: %duration% 毫秒
 
+<nul set /p ="!duration!" >%~nx0.txt
 echo ● [END] %~nx0
