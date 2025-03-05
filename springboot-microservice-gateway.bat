@@ -51,8 +51,13 @@ for /l %%i in (1,1,9) do (
     set "CID=!CID!!randNum!"
 )
 
+:: 檢查 temp 資料夾是否存在，若不存在則創建
+if not exist "%~dp0temp" (
+    mkdir "%~dp0temp"
+)
+
 :: 將身分證號儲存為檔案
-<nul set /p ="!CID!" >cid.txt
+<nul set /p ="!CID!" >"%~dp0temp\cid.txt"
 
 :: 執行各步驟並記錄輸出
 (
@@ -98,7 +103,7 @@ for /l %%i in (1,1,9) do (
 	set /a sum=0
 	
 	:: 遍歷所有檔名以 SC 開頭的 txt 檔案
-	for %%f in (SC*.txt) do (
+	for %%f in (%~dp0temp\SC*.txt) do (
 		:: 讀取每個檔案中的數字並加總
 		for /f "tokens=*" %%a in (%%f) do (
 			set /a sum=!sum! + %%a

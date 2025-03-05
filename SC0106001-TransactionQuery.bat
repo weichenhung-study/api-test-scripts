@@ -7,8 +7,8 @@ for /f "delims=" %%a in ('powershell -Command "[DateTimeOffset]::UtcNow.ToUnixTi
 echo 發送請求時間: %start_time%
 
 
-if exist cid.txt (	:: 讀取 CID（如果檔案存在）
-    set /p CID=<cid.txt
+if exist %~dp0temp\cid.txt (	:: 讀取 CID（如果檔案存在）
+    set /p CID=<%~dp0temp\cid.txt
 )
 echo 取得的 CID: %CID%
 echo 呼叫自: %1, 連接埠: %2, 路徑: %3
@@ -27,5 +27,10 @@ echo 完成請求時間: %end_time%
 for /f "delims=" %%a in ('powershell -Command "%end_time% - %start_time%"') do set duration=%%a
 echo ○ 總執行時間: %duration% 毫秒
 
-<nul set /p ="!duration!" >%~nx0.txt
+:: 檢查 temp 資料夾是否存在，若不存在則創建
+if not exist "%~dp0temp" (
+    mkdir "%~dp0temp"
+)
+
+<nul set /p ="!duration!" >"%~dp0temp\%~nx0.txt"
 echo ● [END] %~nx0
