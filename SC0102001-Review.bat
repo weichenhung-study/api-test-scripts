@@ -16,6 +16,7 @@ echo 呼叫自: %1, 連接埠: %2, 路徑: %3
 :: 發送請求
 curl -X PUT "http://127.0.0.1:%2/%1/%3" ^
      -H "Content-Type: application/json" ^
+	 -u "mycredit:QWErty123@" ^
      -d "{""cid"":""%CID%"",""cardType"":""2"",""cardApprovalStatus"":""01"",""applyRemark"":""通過""}"
 
 

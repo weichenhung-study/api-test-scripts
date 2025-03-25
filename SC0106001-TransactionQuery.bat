@@ -14,7 +14,7 @@ echo 取得的 CID: %CID%
 echo 呼叫自: %1, 連接埠: %2, 路徑: %3
 
 :: 發送請求
-curl -X GET "http://127.0.0.1:%2/%1/%3?cid=%CID%&cardType=2&startDate=2024/01/01&endDate=2025/12/31"
+curl -u mycredit:QWErty123@ "http://127.0.0.1:%2/%1/%3?cid=%CID%&cardType=2&startDate=2024/01/01&endDate=2025/12/31"
 
 
 
