@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1744786349945,56,CreateCuscredit - 新增客戶信用卡資訊,200,,springboot-microservice-jpa 1-1,text,true,,272,958,1,1,http://127.0.0.1:8088/springboot-microservice-jpa/cuscredit/CreateCuscredit,52,0,17
+1744786355018,30,GetActivatedCardHolder - 查詢有效卡片持有者資料,200,,springboot-microservice-jpa 1-1,text,true,,987,317,1,1,http://127.0.0.1:8088/springboot-microservice-jpa/cuscredit/GetActivatedCardHolder?cid=C266654321&cardType=2&cardNum=1309312195229971&securityCode=296,30,0,0
+1744786360057,31,GetCardHolder - 查詢卡片持有者資料,200,,springboot-microservice-jpa 1-1,text,true,,978,266,1,1,http://127.0.0.1:8088/springboot-microservice-jpa/cuscredit/GetCardHolder?cid=C266654321&cardType=2,31,0,0
+1744786365097,43,UpdateActivationRecord - 信用卡開卡 更新信用卡狀態,200,,springboot-microservice-jpa 1-1,text,true,,265,320,1,1,http://127.0.0.1:8088/springboot-microservice-jpa/cuscredit/UpdateActivationRecord,43,0,0
+1744786370145,32,UpdateCardApprovalStatus - 審核信用卡 更新信用卡狀態,200,,springboot-microservice-jpa 1-1,text,true,,267,472,1,1,http://127.0.0.1:8088/springboot-microservice-jpa/cuscredit/UpdateCardApprovalStatus,32,0,0
+1744786375184,20,UpdatePayDate - 繳交信用卡費,200,,springboot-microservice-jpa 1-1,text,true,,267,364,1,1,http://127.0.0.1:8089/springboot-microservice-jpa/billofmonth/UpdatePayDate,20,0,0
+1744786380219,33,InsertBill - 產生各消費者的月結帳單,200,,springboot-microservice-jpa 1-1,text,true,,267,839,1,1,http://127.0.0.1:8089/springboot-microservice-jpa/billofmonth/InsertBill,33,0,0
+1744786385268,25,FindCusBill - 本期信用卡帳單查詢,200,,springboot-microservice-jpa 1-1,text,true,,1033,282,1,1,http://127.0.0.1:8089/springboot-microservice-jpa/billofmonth/FindCusBill?cid=A266654329&cardType=2&payDate=2025/02,25,0,0
+1744786390298,15,UpdateDisputedFlag - 爭議款項申請:上註記,200,,springboot-microservice-jpa 1-1,text,true,,261,322,1,1,http://127.0.0.1:8090/springboot-microservice-jpa/billrecord/UpdateDisputedFlag,15,0,1
+1744786395320,118,"FindCusBillAll - 查詢該月帳單的""特定""客戶資料",200,,springboot-microservice-jpa 1-1,text,true,,1135557,308,1,1,http://127.0.0.1:8090/springboot-microservice-jpa/billrecord/FindCusBillAll?cid=C266654321&cardType=2&startDate=2024/01/01&endDate=2025/12/31,87,0,0
+1744786400448,28,FindCusBill - 查詢該月帳單的所有客戶資料,200,,springboot-microservice-jpa 1-1,text,true,,658,239,1,1,http://127.0.0.1:8090/springboot-microservice-jpa/billrecord/FindCusBill,27,0,0
+1744786405487,34,InsertCusDateBill - 客戶使用信用卡消費計入消費紀錄,200,,springboot-microservice-jpa 1-1,text,true,,274,674,1,1,http://127.0.0.1:8090/springboot-microservice-jpa/billrecord/InsertCusDateBill,34,0,0
