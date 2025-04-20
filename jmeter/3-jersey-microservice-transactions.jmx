@@ -21,7 +21,7 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager">
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">content-type</stringProp>
@@ -58,15 +58,15 @@
     &quot;reqPaymentDate&quot;: &quot;2024/08/16 12:00:00.000&quot;,&#xd;
     &quot;cardType&quot;: &quot;2&quot;,&#xd;
     &quot;shopId&quot;: &quot;倉鼠&quot;,&#xd;
-    &quot;cid&quot;: &quot;C266654321&quot;,&#xd;
+    &quot;cid&quot;: &quot;F221613206&quot;,&#xd;
     &quot;buyCurrency&quot;: &quot;NTD&quot;,&#xd;
     &quot;buyAmount&quot;: &quot;1000&quot;,&#xd;
     &quot;disputedFlag&quot;: &quot;00&quot;,&#xd;
     &quot;status&quot;: &quot;00&quot;,&#xd;
     &quot;remark&quot;: &quot;&quot;,&#xd;
     &quot;issuingBank&quot;: &quot;00&quot;,&#xd;
-    &quot;cardNum&quot;: &quot;1309312195229971&quot;,&#xd;
-    &quot;securityCode&quot;: &quot;296&quot;&#xd;
+    &quot;cardNum&quot;: &quot;0401784090376694&quot;,&#xd;
+    &quot;securityCode&quot;: &quot;087&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -87,7 +87,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="cid" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">H237754329</stringProp>
+                <stringProp name="Argument.value">F221613206</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">cid</stringProp>
@@ -117,7 +117,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="jersey-microservice-View Results Tree">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="jersey-microservice-View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -154,7 +154,7 @@
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="jersey-microservice-Summary Report">
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="jersey-microservice-Summary Report" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -191,7 +191,7 @@
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="jersey-microservice-Graph Result">
+        <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="jersey-microservice-Graph Result" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>

@@ -62,7 +62,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="SC0107001-FeePayment" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="SC0107001-FeePayment">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8096</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -76,7 +76,7 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;cid&quot;: &quot;J266654329&quot;,&#xd;
+    &quot;cid&quot;: &quot;F221613206&quot;,&#xd;
     &quot;cardType&quot;: &quot;2&quot;,&#xd;
     &quot;payDate&quot;:&quot;2025/02&quot;,&#xd;
     &quot;payAmt&quot;:&quot;8000&quot;&#xd;

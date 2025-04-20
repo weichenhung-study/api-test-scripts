@@ -39,7 +39,7 @@
           <stringProp name="TestPlan.comments">每5秒間隔發API</stringProp>
         </ConstantTimer>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="CreateCuscredit - 新增客戶信用卡資訊" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="CreateCuscredit - 新增客戶信用卡資訊">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8088</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -85,7 +85,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GetActivatedCardHolder - 查詢有效卡片持有者資料" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GetActivatedCardHolder - 查詢有效卡片持有者資料">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8088</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -98,7 +98,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="cid" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">C266654321</stringProp>
+                <stringProp name="Argument.value">F221613206</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">cid</stringProp>
@@ -112,14 +112,14 @@
               </elementProp>
               <elementProp name="cardNum" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">1309312195229971</stringProp>
+                <stringProp name="Argument.value">0401784090376694</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">cardNum</stringProp>
               </elementProp>
               <elementProp name="securityCode" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">296</stringProp>
+                <stringProp name="Argument.value">087</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">securityCode</stringProp>
@@ -128,7 +128,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GetCardHolder - 查詢卡片持有者資料" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GetCardHolder - 查詢卡片持有者資料">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8088</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -141,7 +141,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="cid" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">C266654321</stringProp>
+                <stringProp name="Argument.value">F221613206</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">cid</stringProp>
@@ -157,7 +157,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="UpdateActivationRecord - 信用卡開卡 更新信用卡狀態" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="UpdateActivationRecord - 信用卡開卡 更新信用卡狀態">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8088</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -180,7 +180,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="UpdateCardApprovalStatus - 審核信用卡 更新信用卡狀態" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="UpdateCardApprovalStatus - 審核信用卡 更新信用卡狀態">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8088</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -194,11 +194,11 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;cid&quot;: &quot;C266654321&quot;,&#xd;
+    &quot;cid&quot;: &quot;F221613206&quot;,&#xd;
     &quot;cardType&quot;: &quot;2&quot;,&#xd;
     &quot;cardApprovalStatus&quot;: &quot;01&quot;,&#xd;
-    &quot;cardNum&quot;: &quot;1309312195229971&quot;,&#xd;
-    &quot;securityCode&quot;: &quot;296&quot;,&#xd;
+    &quot;cardNum&quot;: &quot;0401784090376694&quot;,&#xd;
+    &quot;securityCode&quot;: &quot;087&quot;,&#xd;
     &quot;status&quot;: &quot;00&quot;,&#xd;
     &quot;applyRemark&quot;: &quot;SUCCESS&quot;&#xd;
 }</stringProp>

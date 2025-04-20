@@ -34,7 +34,7 @@
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer">
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
           <stringProp name="ConstantTimer.delay">2000</stringProp>
           <stringProp name="TestPlan.comments">每2秒間隔發API</stringProp>
         </ConstantTimer>

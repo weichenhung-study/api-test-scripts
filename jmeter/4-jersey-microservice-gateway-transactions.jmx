@@ -39,7 +39,7 @@
           <stringProp name="TestPlan.comments">每2秒間隔發API</stringProp>
         </ConstantTimer>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="SC0104001-Transaction" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="SC0104001-Transaction">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8096</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -58,15 +58,15 @@
     &quot;reqPaymentDate&quot;: &quot;2024/08/16 12:00:00.000&quot;,&#xd;
     &quot;cardType&quot;: &quot;2&quot;,&#xd;
     &quot;shopId&quot;: &quot;倉鼠&quot;,&#xd;
-    &quot;cid&quot;: &quot;C266654321&quot;,&#xd;
+    &quot;cid&quot;: &quot;F221613206&quot;,&#xd;
     &quot;buyCurrency&quot;: &quot;NTD&quot;,&#xd;
     &quot;buyAmount&quot;: &quot;1000&quot;,&#xd;
     &quot;disputedFlag&quot;: &quot;00&quot;,&#xd;
     &quot;status&quot;: &quot;00&quot;,&#xd;
     &quot;remark&quot;: &quot;&quot;,&#xd;
     &quot;issuingBank&quot;: &quot;00&quot;,&#xd;
-    &quot;cardNum&quot;: &quot;1309312195229971&quot;,&#xd;
-    &quot;securityCode&quot;: &quot;296&quot;&#xd;
+    &quot;cardNum&quot;: &quot;0401784090376694&quot;,&#xd;
+    &quot;securityCode&quot;: &quot;087&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -87,7 +87,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="cid" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">H237754329</stringProp>
+                <stringProp name="Argument.value">F221613206</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">cid</stringProp>

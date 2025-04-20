@@ -34,12 +34,12 @@
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer">
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
           <stringProp name="ConstantTimer.delay">2000</stringProp>
           <stringProp name="TestPlan.comments">每2秒間隔發API</stringProp>
         </ConstantTimer>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="UpdateDisputedFlag - 爭議款項申請:上註記" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="UpdateDisputedFlag - 爭議款項申請:上註記">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8083</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -53,7 +53,7 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;uuid&quot;: &quot;1eb5cbe4-dd0e-4394-8c13-045651f957b7&quot;&#xd;
+    &quot;uuid&quot;: &quot;7e9d6fac-2af7-4f4a-b2de-d825121b0680&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -61,7 +61,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="FindCusBillAll - 查詢該月帳單的&quot;特定&quot;客戶資料" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="FindCusBillAll - 查詢該月帳單的&quot;特定&quot;客戶資料">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8083</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -74,7 +74,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="cid" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">C266654321</stringProp>
+                <stringProp name="Argument.value">F221613206</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">cid</stringProp>
@@ -104,7 +104,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="FindCusBill - 查詢該月帳單的所有客戶資料" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="FindCusBill - 查詢該月帳單的所有客戶資料">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8083</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -118,7 +118,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="InsertCusDateBill - 客戶使用信用卡消費計入消費紀錄" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="InsertCusDateBill - 客戶使用信用卡消費計入消費紀錄">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8083</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -137,15 +137,15 @@
     &quot;reqPaymentDate&quot;: &quot;2025/02/04 12:00:00.000&quot;,&#xd;
     &quot;cardType&quot;: &quot;2&quot;,&#xd;
     &quot;shopId&quot;: &quot;吉娃娃&quot;,&#xd;
-    &quot;cid&quot;: &quot;A866654321&quot;,&#xd;
+    &quot;cid&quot;: &quot;F221613206&quot;,&#xd;
     &quot;buyCurrency&quot;: &quot;NTD&quot;,&#xd;
     &quot;buyAmount&quot;: &quot;8800&quot;,&#xd;
     &quot;disputedFlag&quot;: &quot;00&quot;,&#xd;
     &quot;status&quot;: &quot;00&quot;,&#xd;
     &quot;remark&quot;: &quot;&quot;,&#xd;
     &quot;issuingBank&quot;: &quot;00&quot;,&#xd;
-    &quot;cardNum&quot;: &quot;5081048464415223&quot;,&#xd;
-    &quot;securityCode&quot;: &quot;497&quot;&#xd;
+    &quot;cardNum&quot;: &quot;0401784090376694&quot;,&#xd;
+    &quot;securityCode&quot;: &quot;087&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>

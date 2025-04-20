@@ -39,7 +39,7 @@
           <stringProp name="TestPlan.comments">每5秒間隔發API</stringProp>
         </ConstantTimer>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="UpdatePayDate - 繳交信用卡費" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="UpdatePayDate - 繳交信用卡費">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8082</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -53,7 +53,7 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;cid&quot;: &quot;J266654329&quot;,&#xd;
+    &quot;cid&quot;: &quot;F221613206&quot;,&#xd;
     &quot;cardType&quot;: &quot;2&quot;,&#xd;
     &quot;payDate&quot;:&quot;2025/02&quot;,&#xd;
     &quot;payAmt&quot;:&quot;8000&quot;&#xd;
@@ -64,7 +64,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="InsertBill - 產生各消費者的月結帳單" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="InsertBill - 產生各消費者的月結帳單">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8082</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -78,7 +78,7 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;cid&quot;: &quot;A266654329&quot;,&#xd;
+    &quot;cid&quot;: &quot;F221613206&quot;,&#xd;
     &quot;cardType&quot;: &quot;2&quot;,&#xd;
     &quot;billList&quot;: &quot;[{\&quot;uuid\&quot;:\&quot;12b43bb7-9fb4-492e-b322-c81ddc1f0fd0\&quot;,\&quot;buyChannel\&quot;:\&quot;00\&quot;,\&quot;buyDate\&quot;:\&quot;2024/12/03 11:50:00.000\&quot;,\&quot;reqPaymentDate\&quot;:\&quot;2024/12/03 12:00:00.000\&quot;,\&quot;cardType\&quot;:\&quot;2\&quot;,\&quot;shopId\&quot;:\&quot;吉娃娃\&quot;,\&quot;cid\&quot;:\&quot;C266654321\&quot;,\&quot;buyCurrency\&quot;:\&quot;NTD\&quot;,\&quot;buyAmount\&quot;:\&quot;8800\&quot;,\&quot;disputedFlag\&quot;:\&quot;00\&quot;,\&quot;status\&quot;:\&quot;00\&quot;,\&quot;actuallyDate\&quot;:\&quot;2024/12/03 17:20:14.020\&quot;,\&quot;remark\&quot;:\&quot;\&quot;,\&quot;issuingBank\&quot;:\&quot;00\&quot;,\&quot;cardNum\&quot;:\&quot;5081048464415223\&quot;,\&quot;securityCode\&quot;:\&quot;497\&quot;}]&quot;,&#xd;
     &quot;amt&quot;: &quot;9990&quot;,&#xd;
@@ -90,7 +90,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="FindCusBill - 本期信用卡帳單查詢" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="FindCusBill - 本期信用卡帳單查詢">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8082</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -103,7 +103,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="cid" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">A266654329</stringProp>
+                <stringProp name="Argument.value">F221613206</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">cid</stringProp>
