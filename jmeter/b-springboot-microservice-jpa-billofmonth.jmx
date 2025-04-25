@@ -16,7 +16,7 @@
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="迴圈控制器">
-          <stringProp name="LoopController.loops">1</stringProp>
+          <stringProp name="LoopController.loops">3</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
         </elementProp>
       </ThreadGroup>
@@ -53,9 +53,10 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
+    &quot;cid&quot;: &quot;F221613206&quot;,&#xd;
+    &quot;cardType&quot;: &quot;2&quot;,&#xd;
     &quot;payDate&quot;:&quot;2025/02&quot;,&#xd;
-    &quot;payAmt&quot;:&quot;98&quot;,&#xd;
-    &quot;uuid&quot;:&quot;7e9d6fac-2af7-4f4a-b2de-d825121b0680&quot;&#xd;
+    &quot;payAmt&quot;:&quot;8000&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -125,7 +126,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="springboot-microservice-jpa-View Results Tree" enabled="true">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="springboot-microservice-jpa-View Results Tree">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
