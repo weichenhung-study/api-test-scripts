@@ -10,11 +10,6 @@
     </TestPlan>
     <hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="jersey-modular-monolith-billing">
-        <stringProp name="TestPlan.comments">以繳費高峰
-模擬 100 位用戶繳費
-這些用戶會在 10 分鐘分批啟動
-每位用戶會繳費 1 筆
-每位用戶的每次請求之間有 5 秒間隔</stringProp>
         <intProp name="ThreadGroup.num_threads">100</intProp>
         <intProp name="ThreadGroup.ramp_time">10</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
@@ -66,7 +61,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="SC0107001-FeePayment">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="SC0107001-FeePayment" enabled="true">
           <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
           <stringProp name="HTTPSampler.port">8072</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>

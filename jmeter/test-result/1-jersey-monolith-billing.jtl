@@ -1,501 +1,101 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1745018058933,1901,SC0107001-FeePayment,201,,jersey-monolith-billing 1-21,text,true,,241,338,90,90,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1896,0,1
-1745018059025,1850,SC0107001-FeePayment,201,,jersey-monolith-billing 1-22,text,true,,241,338,89,89,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1850,0,1
-1745018059126,1875,SC0107001-FeePayment,201,,jersey-monolith-billing 1-23,text,true,,241,338,89,89,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1875,0,1
-1745018057526,3498,SC0107001-FeePayment,201,,jersey-monolith-billing 1-5,text,true,,241,338,88,88,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3498,0,23
-1745018059327,1712,SC0107001-FeePayment,201,,jersey-monolith-billing 1-25,text,true,,241,338,88,88,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1712,0,1
-1745018057830,3209,SC0107001-FeePayment,201,,jersey-monolith-billing 1-10,text,true,,241,338,88,88,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3209,0,1
-1745018057526,3514,SC0107001-FeePayment,201,,jersey-monolith-billing 1-4,text,true,,241,338,88,88,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3513,0,23
-1745018057644,3398,SC0107001-FeePayment,201,,jersey-monolith-billing 1-8,text,true,,241,338,85,85,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3398,0,1
-1745018057526,3526,SC0107001-FeePayment,201,,jersey-monolith-billing 1-6,text,true,,241,338,84,84,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3526,0,23
-1745018058427,2628,SC0107001-FeePayment,201,,jersey-monolith-billing 1-16,text,true,,241,338,83,83,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2628,0,1
-1745018057736,3344,SC0107001-FeePayment,201,,jersey-monolith-billing 1-9,text,true,,241,338,82,82,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3344,0,1
-1745018058028,3060,SC0107001-FeePayment,201,,jersey-monolith-billing 1-12,text,true,,241,338,81,81,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3060,0,0
-1745018058727,2374,SC0107001-FeePayment,201,,jersey-monolith-billing 1-19,text,true,,241,338,80,80,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2374,0,1
-1745018059228,1890,SC0107001-FeePayment,201,,jersey-monolith-billing 1-24,text,true,,241,338,79,79,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1890,0,2
-1745018059528,1848,SC0107001-FeePayment,201,,jersey-monolith-billing 1-27,text,true,,241,338,81,81,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1848,0,0
-1745018060129,1258,SC0107001-FeePayment,201,,jersey-monolith-billing 1-33,text,true,,241,338,80,80,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1258,0,1
-1745018058128,3292,SC0107001-FeePayment,201,,jersey-monolith-billing 1-13,text,true,,241,338,79,79,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3292,0,1
-1745018057941,3699,SC0107001-FeePayment,201,,jersey-monolith-billing 1-11,text,true,,241,338,81,81,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3699,0,1
-1745018059955,1761,SC0107001-FeePayment,201,,jersey-monolith-billing 1-31,text,true,,241,338,80,80,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1761,0,1
-1745018059955,1840,SC0107001-FeePayment,201,,jersey-monolith-billing 1-30,text,true,,241,338,80,80,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1840,0,1
-1745018060027,1824,SC0107001-FeePayment,201,,jersey-monolith-billing 1-32,text,true,,241,338,80,80,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1824,0,1
-1745018060228,1857,SC0107001-FeePayment,201,,jersey-monolith-billing 1-34,text,true,,241,338,79,79,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1857,0,1
-1745018060828,1261,SC0107001-FeePayment,201,,jersey-monolith-billing 1-40,text,true,,241,338,78,78,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1260,0,0
-1745018060327,1822,SC0107001-FeePayment,201,,jersey-monolith-billing 1-35,text,true,,241,338,77,77,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1822,0,1
-1745018060938,1262,SC0107001-FeePayment,201,,jersey-monolith-billing 1-41,text,true,,241,338,76,76,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1262,0,0
-1745018060527,1734,SC0107001-FeePayment,201,,jersey-monolith-billing 1-37,text,true,,241,338,75,75,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1734,0,0
-1745018060427,1847,SC0107001-FeePayment,201,,jersey-monolith-billing 1-36,text,true,,241,338,74,74,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1847,0,0
-1745018061027,1275,SC0107001-FeePayment,201,,jersey-monolith-billing 1-42,text,true,,241,338,73,73,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1275,0,1
-1745018060727,1739,SC0107001-FeePayment,201,,jersey-monolith-billing 1-39,text,true,,241,338,72,72,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1739,0,1
-1745018058527,4042,SC0107001-FeePayment,201,,jersey-monolith-billing 1-17,text,true,,241,338,71,71,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4042,0,1
-1745018058326,4501,SC0107001-FeePayment,201,,jersey-monolith-billing 1-15,text,true,,241,338,70,70,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4501,0,1
-1745018061227,1839,SC0107001-FeePayment,201,,jersey-monolith-billing 1-44,text,true,,241,338,69,69,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1839,0,1
-1745018057535,5535,SC0107001-FeePayment,201,,jersey-monolith-billing 1-7,text,true,,241,338,68,68,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5535,0,14
-1745018061326,1832,SC0107001-FeePayment,201,,jersey-monolith-billing 1-45,text,true,,241,338,67,67,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1832,0,1
-1745018061528,1713,SC0107001-FeePayment,201,,jersey-monolith-billing 1-47,text,true,,241,338,66,66,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1713,0,1
-1745018061627,1837,SC0107001-FeePayment,201,,jersey-monolith-billing 1-48,text,true,,241,338,65,65,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1837,0,0
-1745018061727,1833,SC0107001-FeePayment,201,,jersey-monolith-billing 1-49,text,true,,241,338,64,64,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1833,0,1
-1745018058228,5587,SC0107001-FeePayment,201,,jersey-monolith-billing 1-14,text,true,,241,338,63,63,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5587,0,1
-1745018061935,1886,SC0107001-FeePayment,201,,jersey-monolith-billing 1-51,text,true,,241,338,62,62,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1886,0,2
-1745018062028,1820,SC0107001-FeePayment,201,,jersey-monolith-billing 1-52,text,true,,241,338,61,61,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1820,0,1
-1745018062730,1251,SC0107001-FeePayment,201,,jersey-monolith-billing 1-59,text,true,,241,338,60,60,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1251,0,1
-1745018062138,1852,SC0107001-FeePayment,201,,jersey-monolith-billing 1-53,text,true,,241,338,59,59,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1852,0,0
-1745018062340,1828,SC0107001-FeePayment,201,,jersey-monolith-billing 1-55,text,true,,241,338,58,58,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1828,0,1
-1745018058626,5551,SC0107001-FeePayment,201,,jersey-monolith-billing 1-18,text,true,,241,338,57,57,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5551,0,1
-1745018062434,1825,SC0107001-FeePayment,201,,jersey-monolith-billing 1-56,text,true,,241,338,56,56,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1825,0,1
-1745018062527,1856,SC0107001-FeePayment,201,,jersey-monolith-billing 1-57,text,true,,241,338,55,55,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1856,0,1
-1745018063134,1264,SC0107001-FeePayment,201,,jersey-monolith-billing 1-63,text,true,,241,338,54,54,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1264,0,1
-1745018062637,1855,SC0107001-FeePayment,201,,jersey-monolith-billing 1-58,text,true,,241,338,53,53,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1855,0,1
-1745018063334,1240,SC0107001-FeePayment,201,,jersey-monolith-billing 1-65,text,true,,241,338,52,52,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1239,0,1
-1745018057526,7056,SC0107001-FeePayment,201,,jersey-monolith-billing 1-2,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7056,0,23
-1745018062933,1830,SC0107001-FeePayment,201,,jersey-monolith-billing 1-61,text,true,,241,338,50,50,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1830,0,0
-1745018057526,7425,SC0107001-FeePayment,201,,jersey-monolith-billing 1-3,text,true,,241,338,49,49,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7425,0,23
-1745018063227,1750,SC0107001-FeePayment,201,,jersey-monolith-billing 1-64,text,true,,241,338,48,48,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1750,0,0
-1745018057526,7797,SC0107001-FeePayment,201,,jersey-monolith-billing 1-1,text,true,,241,338,47,47,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7797,0,23
-1745018063535,1851,SC0107001-FeePayment,201,,jersey-monolith-billing 1-67,text,true,,241,338,46,46,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1851,0,1
-1745018064142,1258,SC0107001-FeePayment,201,,jersey-monolith-billing 1-73,text,true,,241,338,45,45,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1258,0,3
-1745018063628,1850,SC0107001-FeePayment,201,,jersey-monolith-billing 1-68,text,true,,241,338,44,44,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1850,0,0
-1745018063736,1857,SC0107001-FeePayment,201,,jersey-monolith-billing 1-69,text,true,,241,338,43,43,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1857,0,1
-1745018062230,3382,SC0107001-FeePayment,201,,jersey-monolith-billing 1-54,text,true,,241,338,42,42,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3382,0,0
-1745018061126,4548,SC0107001-FeePayment,201,,jersey-monolith-billing 1-43,text,true,,241,338,41,41,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4548,0,1
-1745018063938,1751,SC0107001-FeePayment,201,,jersey-monolith-billing 1-71,text,true,,241,338,40,40,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1751,0,1
-1745018064032,1829,SC0107001-FeePayment,201,,jersey-monolith-billing 1-72,text,true,,241,338,39,39,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1829,0,0
-1745018064730,1266,SC0107001-FeePayment,201,,jersey-monolith-billing 1-79,text,true,,241,338,38,38,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1266,0,0
-1745018064233,1829,SC0107001-FeePayment,201,,jersey-monolith-billing 1-74,text,true,,241,338,37,37,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1829,0,1
-1745018064933,1247,SC0107001-FeePayment,201,,jersey-monolith-billing 1-81,text,true,,241,338,36,36,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1247,0,0
-1745018058829,7404,SC0107001-FeePayment,201,,jersey-monolith-billing 1-20,text,true,,241,338,35,35,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7404,0,0
-1745018064527,1723,SC0107001-FeePayment,201,,jersey-monolith-billing 1-77,text,true,,241,338,34,34,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1723,0,1
-1745018064435,1840,SC0107001-FeePayment,201,,jersey-monolith-billing 1-76,text,true,,241,338,33,33,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1840,0,1
-1745018064838,1827,SC0107001-FeePayment,201,,jersey-monolith-billing 1-80,text,true,,241,338,32,32,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1827,0,1
-1745018059426,7273,SC0107001-FeePayment,201,,jersey-monolith-billing 1-26,text,true,,241,338,31,31,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7273,0,0
-1745018065427,1274,SC0107001-FeePayment,201,,jersey-monolith-billing 1-86,text,true,,241,338,30,30,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1274,0,0
-1745018065133,1718,SC0107001-FeePayment,201,,jersey-monolith-billing 1-83,text,true,,241,338,29,29,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1718,0,1
-1745018063427,3467,SC0107001-FeePayment,201,,jersey-monolith-billing 1-66,text,true,,241,338,28,28,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3467,0,1
-1745018065041,1866,SC0107001-FeePayment,201,,jersey-monolith-billing 1-82,text,true,,241,338,27,27,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1866,0,0
-1745018065737,1265,SC0107001-FeePayment,201,,jersey-monolith-billing 1-89,text,true,,241,338,26,26,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1265,0,1
-1745018059955,7149,SC0107001-FeePayment,201,,jersey-monolith-billing 1-29,text,true,,241,338,25,25,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7149,0,1
-1745018065333,1857,SC0107001-FeePayment,201,,jersey-monolith-billing 1-85,text,true,,241,338,24,24,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1857,0,1
-1745018066234,1280,SC0107001-FeePayment,201,,jersey-monolith-billing 1-94,text,true,,241,338,23,23,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1280,0,1
-1745018059626,7906,SC0107001-FeePayment,201,,jersey-monolith-billing 1-28,text,true,,241,338,22,22,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7906,0,1
-1745018065940,1822,SC0107001-FeePayment,201,,jersey-monolith-billing 1-91,text,true,,241,338,21,21,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1822,0,1
-1745018066034,1830,SC0107001-FeePayment,201,,jersey-monolith-billing 1-92,text,true,,241,338,20,20,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1830,0,0
-1745018060628,7278,SC0107001-FeePayment,201,,jersey-monolith-billing 1-38,text,true,,241,338,19,19,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7278,0,1
-1745018066640,1296,SC0107001-FeePayment,201,,jersey-monolith-billing 1-98,text,true,,241,338,18,18,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1296,0,2
-1745018066328,1881,SC0107001-FeePayment,201,,jersey-monolith-billing 1-95,text,true,,241,338,17,17,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1881,0,2
-1745018061829,6457,SC0107001-FeePayment,201,,jersey-monolith-billing 1-50,text,true,,241,338,16,16,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6457,0,1
-1745018066530,1844,SC0107001-FeePayment,201,,jersey-monolith-billing 1-97,text,true,,241,338,15,15,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1844,0,0
-1745018066731,1839,SC0107001-FeePayment,201,,jersey-monolith-billing 1-99,text,true,,241,338,14,14,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1839,0,1
-1745018066839,1860,SC0107001-FeePayment,201,,jersey-monolith-billing 1-100,text,true,,241,338,13,13,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1860,0,1
-1745018061426,7639,SC0107001-FeePayment,201,,jersey-monolith-billing 1-46,text,true,,241,338,12,12,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7639,0,1
-1745018063829,5677,SC0107001-FeePayment,201,,jersey-monolith-billing 1-70,text,true,,241,338,11,11,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5677,0,1
-1745018063041,6802,SC0107001-FeePayment,201,,jersey-monolith-billing 1-62,text,true,,241,338,10,10,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6801,0,1
-1745018062840,8023,SC0107001-FeePayment,201,,jersey-monolith-billing 1-60,text,true,,241,338,9,9,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,8023,0,0
-1745018064637,6946,SC0107001-FeePayment,201,,jersey-monolith-billing 1-78,text,true,,241,338,8,8,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6946,0,1
-1745018064326,7516,SC0107001-FeePayment,201,,jersey-monolith-billing 1-75,text,true,,241,338,7,7,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7516,0,1
-1745018065241,7068,SC0107001-FeePayment,201,,jersey-monolith-billing 1-84,text,true,,241,338,6,6,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7068,0,1
-1745018065831,6850,SC0107001-FeePayment,201,,jersey-monolith-billing 1-90,text,true,,241,338,5,5,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6850,0,1
-1745018065538,7523,SC0107001-FeePayment,201,,jersey-monolith-billing 1-87,text,true,,241,338,4,4,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7523,0,2
-1745018066141,7276,SC0107001-FeePayment,201,,jersey-monolith-billing 1-93,text,true,,241,338,3,3,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7276,0,1
-1745018065629,8605,SC0107001-FeePayment,201,,jersey-monolith-billing 1-88,text,true,,241,338,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,8605,0,1
-1745018066436,8074,SC0107001-FeePayment,201,,jersey-monolith-billing 1-96,text,true,,241,338,1,1,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,8074,0,0
-1745018796779,1300,SC0107001-FeePayment,201,,jersey-monolith-billing 1-17,text,true,,241,338,80,80,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1296,0,0
-1745018795978,2208,SC0107001-FeePayment,201,,jersey-monolith-billing 1-9,text,true,,241,338,80,80,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2208,0,1
-1745018795390,2830,SC0107001-FeePayment,201,,jersey-monolith-billing 1-3,text,true,,241,338,79,79,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2830,0,1
-1745018796479,1750,SC0107001-FeePayment,201,,jersey-monolith-billing 1-14,text,true,,241,338,78,78,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1750,0,1
-1745018796978,1280,SC0107001-FeePayment,201,,jersey-monolith-billing 1-19,text,true,,241,338,77,77,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1280,0,0
-1745018796191,2158,SC0107001-FeePayment,201,,jersey-monolith-billing 1-11,text,true,,241,338,77,77,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2158,0,1
-1745018797192,1287,SC0107001-FeePayment,201,,jersey-monolith-billing 1-21,text,true,,241,338,78,78,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1287,0,1
-1745018796281,2294,SC0107001-FeePayment,201,,jersey-monolith-billing 1-12,text,true,,241,338,77,77,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2294,0,1
-1745018795482,3302,SC0107001-FeePayment,201,,jersey-monolith-billing 1-4,text,true,,241,338,78,78,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3302,0,1
-1745018797378,1736,SC0107001-FeePayment,201,,jersey-monolith-billing 1-23,text,true,,241,338,81,81,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1735,0,1
-1745018797278,1836,SC0107001-FeePayment,201,,jersey-monolith-billing 1-22,text,true,,241,338,80,80,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1836,0,1
-1745018797979,1266,SC0107001-FeePayment,201,,jersey-monolith-billing 1-29,text,true,,241,338,80,80,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1266,0,1
-1745018797477,1842,SC0107001-FeePayment,201,,jersey-monolith-billing 1-24,text,true,,241,338,80,80,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1842,0,1
-1745018798078,1252,SC0107001-FeePayment,201,,jersey-monolith-billing 1-30,text,true,,241,338,79,79,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1252,0,0
-1745018798179,1261,SC0107001-FeePayment,201,,jersey-monolith-billing 1-31,text,true,,241,338,79,79,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1261,0,1
-1745018795594,3908,SC0107001-FeePayment,201,,jersey-monolith-billing 1-5,text,true,,241,338,79,79,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3908,0,1
-1745018797677,1869,SC0107001-FeePayment,201,,jersey-monolith-billing 1-26,text,true,,241,338,78,78,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1869,0,1
-1745018797777,1844,SC0107001-FeePayment,201,,jersey-monolith-billing 1-27,text,true,,241,338,78,78,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1843,0,1
-1745018797878,1862,SC0107001-FeePayment,201,,jersey-monolith-billing 1-28,text,true,,241,338,78,78,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1862,0,0
-1745018798479,1289,SC0107001-FeePayment,201,,jersey-monolith-billing 1-34,text,true,,241,338,77,77,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1289,0,1
-1745018798578,1269,SC0107001-FeePayment,201,,jersey-monolith-billing 1-35,text,true,,241,338,77,77,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1269,0,1
-1745018795301,4605,SC0107001-FeePayment,201,,jersey-monolith-billing 1-2,text,true,,241,338,77,77,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4605,0,26
-1745018798679,1253,SC0107001-FeePayment,201,,jersey-monolith-billing 1-36,text,true,,241,338,76,76,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1253,0,0
-1745018798779,1264,SC0107001-FeePayment,201,,jersey-monolith-billing 1-37,text,true,,241,338,76,76,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1264,0,0
-1745018795301,5005,SC0107001-FeePayment,201,,jersey-monolith-billing 1-1,text,true,,241,338,76,76,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5005,0,26
-1745018799080,1278,SC0107001-FeePayment,201,,jersey-monolith-billing 1-40,text,true,,241,338,75,75,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1278,0,0
-1745018798877,1854,SC0107001-FeePayment,201,,jersey-monolith-billing 1-38,text,true,,241,338,74,74,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1854,0,1
-1745018796078,4689,SC0107001-FeePayment,201,,jersey-monolith-billing 1-10,text,true,,241,338,73,73,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4689,0,1
-1745018799579,1269,SC0107001-FeePayment,201,,jersey-monolith-billing 1-45,text,true,,241,338,72,72,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1269,0,0
-1745018796578,4370,SC0107001-FeePayment,201,,jersey-monolith-billing 1-15,text,true,,241,338,71,71,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4370,0,1
-1745018799679,1303,SC0107001-FeePayment,201,,jersey-monolith-billing 1-46,text,true,,241,338,70,70,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1303,0,3
-1745018799178,1836,SC0107001-FeePayment,201,,jersey-monolith-billing 1-41,text,true,,241,338,69,69,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1836,0,1
-1745018799778,1292,SC0107001-FeePayment,201,,jersey-monolith-billing 1-47,text,true,,241,338,68,68,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1292,0,1
-1745018795878,5198,SC0107001-FeePayment,201,,jersey-monolith-billing 1-8,text,true,,241,338,67,67,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5198,0,1
-1745018799880,1295,SC0107001-FeePayment,201,,jersey-monolith-billing 1-48,text,true,,241,338,66,66,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1295,0,2
-1745018800080,1257,SC0107001-FeePayment,201,,jersey-monolith-billing 1-50,text,true,,241,338,65,65,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1257,0,1
-1745018800185,1247,SC0107001-FeePayment,201,,jersey-monolith-billing 1-51,text,true,,241,338,64,64,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1247,0,1
-1745018795680,5824,SC0107001-FeePayment,201,,jersey-monolith-billing 1-6,text,true,,241,338,63,63,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5824,0,1
-1745018800279,1240,SC0107001-FeePayment,201,,jersey-monolith-billing 1-52,text,true,,241,338,62,62,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1240,0,1
-1745018796378,5501,SC0107001-FeePayment,201,,jersey-monolith-billing 1-13,text,true,,241,338,61,61,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5501,0,1
-1745018800680,1268,SC0107001-FeePayment,201,,jersey-monolith-billing 1-56,text,true,,241,338,60,60,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1268,0,1
-1745018800882,1247,SC0107001-FeePayment,201,,jersey-monolith-billing 1-58,text,true,,241,338,59,59,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1247,0,1
-1745018800492,1698,SC0107001-FeePayment,201,,jersey-monolith-billing 1-54,text,true,,241,338,58,58,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1698,0,1
-1745018799977,2269,SC0107001-FeePayment,201,,jersey-monolith-billing 1-49,text,true,,241,338,57,57,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2269,0,1
-1745018800379,1870,SC0107001-FeePayment,201,,jersey-monolith-billing 1-53,text,true,,241,338,56,56,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1869,0,1
-1745018795781,6615,SC0107001-FeePayment,201,,jersey-monolith-billing 1-7,text,true,,241,338,55,55,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6615,0,0
-1745018801287,1267,SC0107001-FeePayment,201,,jersey-monolith-billing 1-62,text,true,,241,338,54,54,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1267,0,1
-1745018800788,1841,SC0107001-FeePayment,201,,jersey-monolith-billing 1-57,text,true,,241,338,53,53,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1841,0,1
-1745018797089,5606,SC0107001-FeePayment,201,,jersey-monolith-billing 1-20,text,true,,241,338,52,52,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5606,0,0
-1745018801379,1347,SC0107001-FeePayment,201,,jersey-monolith-billing 1-63,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1347,0,1
-1745018800990,1820,SC0107001-FeePayment,201,,jersey-monolith-billing 1-59,text,true,,241,338,50,50,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1820,0,1
-1745018801084,1734,SC0107001-FeePayment,201,,jersey-monolith-billing 1-60,text,true,,241,338,49,49,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1734,0,0
-1745018796879,6224,SC0107001-FeePayment,201,,jersey-monolith-billing 1-18,text,true,,241,338,48,48,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6224,0,1
-1745018801581,1827,SC0107001-FeePayment,201,,jersey-monolith-billing 1-65,text,true,,241,338,47,47,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1827,0,1
-1745018802187,1310,SC0107001-FeePayment,201,,jersey-monolith-billing 1-71,text,true,,241,338,46,46,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1310,0,1
-1745018796678,6819,SC0107001-FeePayment,201,,jersey-monolith-billing 1-16,text,true,,241,338,46,46,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6819,0,1
-1745018801690,1841,SC0107001-FeePayment,201,,jersey-monolith-billing 1-66,text,true,,241,338,44,44,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1841,0,1
-1745018802281,1274,SC0107001-FeePayment,201,,jersey-monolith-billing 1-72,text,true,,241,338,43,43,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1274,0,0
-1745018801784,1856,SC0107001-FeePayment,201,,jersey-monolith-billing 1-67,text,true,,241,338,42,42,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1856,0,1
-1745018800586,3132,SC0107001-FeePayment,201,,jersey-monolith-billing 1-55,text,true,,241,338,41,41,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3132,0,0
-1745018802482,1266,SC0107001-FeePayment,201,,jersey-monolith-billing 1-74,text,true,,241,338,40,40,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1266,0,1
-1745018802590,1240,SC0107001-FeePayment,201,,jersey-monolith-billing 1-75,text,true,,241,338,39,39,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1240,0,1
-1745018798278,5655,SC0107001-FeePayment,201,,jersey-monolith-billing 1-32,text,true,,241,338,38,38,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5655,0,1
-1745018802390,1853,SC0107001-FeePayment,201,,jersey-monolith-billing 1-73,text,true,,241,338,37,37,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1853,0,3
-1745018803089,1251,SC0107001-FeePayment,201,,jersey-monolith-billing 1-80,text,true,,241,338,36,36,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1251,0,1
-1745018798463,5925,SC0107001-FeePayment,201,,jersey-monolith-billing 1-33,text,true,,241,338,35,35,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5925,0,1
-1745018803183,1271,SC0107001-FeePayment,201,,jersey-monolith-billing 1-81,text,true,,241,338,34,34,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1271,0,0
-1745018802682,1848,SC0107001-FeePayment,201,,jersey-monolith-billing 1-76,text,true,,241,338,33,33,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1848,0,1
-1745018802778,1840,SC0107001-FeePayment,201,,jersey-monolith-billing 1-77,text,true,,241,338,32,32,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1840,0,0
-1745018802888,1826,SC0107001-FeePayment,201,,jersey-monolith-billing 1-78,text,true,,241,338,31,31,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1826,0,1
-1745018803479,1241,SC0107001-FeePayment,201,,jersey-monolith-billing 1-84,text,true,,241,338,30,30,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1241,0,0
-1745018797578,7194,SC0107001-FeePayment,201,,jersey-monolith-billing 1-25,text,true,,241,338,29,29,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7194,0,1
-1745018803587,1255,SC0107001-FeePayment,201,,jersey-monolith-billing 1-85,text,true,,241,338,28,28,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1255,0,0
-1745018803278,1564,SC0107001-FeePayment,201,,jersey-monolith-billing 1-82,text,true,,241,338,28,28,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1564,0,0
-1745018799378,5716,SC0107001-FeePayment,201,,jersey-monolith-billing 1-43,text,true,,241,338,26,26,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5716,0,1
-1745018803885,1256,SC0107001-FeePayment,201,,jersey-monolith-billing 1-88,text,true,,241,338,25,25,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1256,0,2
-1745018803978,1485,SC0107001-FeePayment,201,,jersey-monolith-billing 1-89,text,true,,241,338,24,24,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1485,0,1
-1745018803681,1824,SC0107001-FeePayment,201,,jersey-monolith-billing 1-86,text,true,,241,338,23,23,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1824,0,0
-1745018804287,1274,SC0107001-FeePayment,201,,jersey-monolith-billing 1-92,text,true,,241,338,22,22,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1274,0,0
-1745018799478,6093,SC0107001-FeePayment,201,,jersey-monolith-billing 1-44,text,true,,241,338,21,21,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6093,0,0
-1745018804490,1262,SC0107001-FeePayment,201,,jersey-monolith-billing 1-94,text,true,,241,338,20,20,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1262,0,1
-1745018804085,1863,SC0107001-FeePayment,201,,jersey-monolith-billing 1-90,text,true,,241,338,19,19,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1863,0,1
-1745018804692,1277,SC0107001-FeePayment,201,,jersey-monolith-billing 1-96,text,true,,241,338,18,18,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1277,0,1
-1745018798977,7052,SC0107001-FeePayment,201,,jersey-monolith-billing 1-39,text,true,,241,338,17,17,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7052,0,1
-1745018804786,1299,SC0107001-FeePayment,201,,jersey-monolith-billing 1-97,text,true,,241,338,16,16,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1298,0,1
-1745018799277,7064,SC0107001-FeePayment,201,,jersey-monolith-billing 1-42,text,true,,241,338,15,15,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7064,0,1
-1745018804987,1681,SC0107001-FeePayment,201,,jersey-monolith-billing 1-99,text,true,,241,338,14,14,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1681,0,1
-1745018804380,2325,SC0107001-FeePayment,201,,jersey-monolith-billing 1-93,text,true,,241,338,13,13,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2325,0,0
-1745018801986,5117,SC0107001-FeePayment,201,,jersey-monolith-billing 1-69,text,true,,241,338,12,12,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5117,0,0
-1745018801489,5987,SC0107001-FeePayment,201,,jersey-monolith-billing 1-64,text,true,,241,338,11,11,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5987,0,0
-1745018802079,5587,SC0107001-FeePayment,201,,jersey-monolith-billing 1-70,text,true,,241,338,10,10,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5587,0,0
-1745018803385,4668,SC0107001-FeePayment,201,,jersey-monolith-billing 1-83,text,true,,241,338,9,9,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4668,0,1
-1745018801177,7650,SC0107001-FeePayment,201,,jersey-monolith-billing 1-61,text,true,,241,338,8,8,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7650,0,1
-1745018801877,7249,SC0107001-FeePayment,201,,jersey-monolith-billing 1-68,text,true,,241,338,7,7,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7249,0,2
-1745018803885,5708,SC0107001-FeePayment,201,,jersey-monolith-billing 1-87,text,true,,241,338,6,6,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5708,0,2
-1745018804879,5108,SC0107001-FeePayment,201,,jersey-monolith-billing 1-98,text,true,,241,338,5,5,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5108,0,0
-1745018804179,6247,SC0107001-FeePayment,201,,jersey-monolith-billing 1-91,text,true,,241,338,4,4,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6247,0,0
-1745018802980,7843,SC0107001-FeePayment,201,,jersey-monolith-billing 1-79,text,true,,241,338,3,3,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7843,0,0
-1745018804583,6685,SC0107001-FeePayment,201,,jersey-monolith-billing 1-95,text,true,,241,338,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6684,0,1
-1745018805081,6474,SC0107001-FeePayment,201,,jersey-monolith-billing 1-100,text,true,,241,338,1,1,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6474,0,1
-1745566923394,2231,SC0107001-FeePayment,201,,jersey-monolith-billing 1-11,text,true,,241,338,83,83,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2228,0,0
-1745566924186,1567,SC0107001-FeePayment,201,,jersey-monolith-billing 1-19,text,true,,241,338,83,83,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1567,0,1
-1745566923888,2007,SC0107001-FeePayment,201,,jersey-monolith-billing 1-16,text,true,,241,338,84,84,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2007,0,1
-1745566923190,2710,SC0107001-FeePayment,201,,jersey-monolith-billing 1-9,text,true,,241,338,83,83,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2710,0,1
-1745566923787,2154,SC0107001-FeePayment,201,,jersey-monolith-billing 1-15,text,true,,241,338,82,82,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2154,0,1
-1745566923987,2151,SC0107001-FeePayment,201,,jersey-monolith-billing 1-17,text,true,,241,338,83,83,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2151,0,1
-1745566924087,2169,SC0107001-FeePayment,201,,jersey-monolith-billing 1-18,text,true,,241,338,83,83,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2169,0,1
-1745566924687,1622,SC0107001-FeePayment,201,,jersey-monolith-billing 1-24,text,true,,241,338,83,83,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1621,0,1
-1745566923288,3075,SC0107001-FeePayment,201,,jersey-monolith-billing 1-10,text,true,,241,338,82,82,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3075,0,1
-1745566924387,2045,SC0107001-FeePayment,201,,jersey-monolith-billing 1-21,text,true,,241,338,82,82,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2045,0,1
-1745566924486,2157,SC0107001-FeePayment,201,,jersey-monolith-billing 1-22,text,true,,241,338,83,83,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2157,0,1
-1745566922892,3761,SC0107001-FeePayment,201,,jersey-monolith-billing 1-6,text,true,,241,338,82,82,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3761,0,0
-1745566925184,1518,SC0107001-FeePayment,201,,jersey-monolith-billing 1-29,text,true,,241,338,82,82,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1518,0,1
-1745566922465,4341,SC0107001-FeePayment,201,,jersey-monolith-billing 1-1,text,true,,241,338,82,82,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4341,0,26
-1745566924786,2134,SC0107001-FeePayment,201,,jersey-monolith-billing 1-25,text,true,,241,338,82,82,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2134,0,1
-1745566925386,1578,SC0107001-FeePayment,201,,jersey-monolith-billing 1-31,text,true,,241,338,81,81,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1578,0,1
-1745566924887,2142,SC0107001-FeePayment,201,,jersey-monolith-billing 1-26,text,true,,241,338,81,81,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2141,0,1
-1745566924987,2182,SC0107001-FeePayment,201,,jersey-monolith-billing 1-27,text,true,,241,338,81,81,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2182,0,1
-1745566922691,4756,SC0107001-FeePayment,201,,jersey-monolith-billing 1-4,text,true,,241,338,82,82,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4756,0,1
-1745566925286,2173,SC0107001-FeePayment,201,,jersey-monolith-billing 1-30,text,true,,241,338,81,81,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2173,0,0
-1745566925986,1542,SC0107001-FeePayment,201,,jersey-monolith-billing 1-37,text,true,,241,338,80,80,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1542,0,1
-1745566925487,2133,SC0107001-FeePayment,201,,jersey-monolith-billing 1-32,text,true,,241,338,79,79,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2133,0,0
-1745566925586,2143,SC0107001-FeePayment,201,,jersey-monolith-billing 1-33,text,true,,241,338,78,78,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2143,0,0
-1745566923586,4213,SC0107001-FeePayment,201,,jersey-monolith-billing 1-13,text,true,,241,338,77,77,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4213,0,1
-1745566925684,2166,SC0107001-FeePayment,201,,jersey-monolith-billing 1-34,text,true,,241,338,76,76,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2166,0,1
-1745566925887,2116,SC0107001-FeePayment,201,,jersey-monolith-billing 1-36,text,true,,241,338,75,75,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2116,0,1
-1745566923688,4627,SC0107001-FeePayment,201,,jersey-monolith-billing 1-14,text,true,,241,338,74,74,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4627,0,1
-1745566926394,2017,SC0107001-FeePayment,201,,jersey-monolith-billing 1-41,text,true,,241,338,73,73,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2017,0,1
-1745566926587,2071,SC0107001-FeePayment,201,,jersey-monolith-billing 1-43,text,true,,241,338,72,72,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2071,0,0
-1745566926485,2190,SC0107001-FeePayment,201,,jersey-monolith-billing 1-42,text,true,,241,338,71,71,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2190,0,1
-1745566925086,3605,SC0107001-FeePayment,201,,jersey-monolith-billing 1-28,text,true,,241,338,70,70,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3605,0,1
-1745566926687,2005,SC0107001-FeePayment,201,,jersey-monolith-billing 1-44,text,true,,241,338,69,69,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2005,0,1
-1745566927285,1571,SC0107001-FeePayment,201,,jersey-monolith-billing 1-50,text,true,,241,338,68,68,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1571,0,1
-1745566922990,5880,SC0107001-FeePayment,201,,jersey-monolith-billing 1-7,text,true,,241,338,67,67,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5880,0,0
-1745566927391,1527,SC0107001-FeePayment,201,,jersey-monolith-billing 1-51,text,true,,241,338,66,66,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1527,0,1
-1745566926887,2152,SC0107001-FeePayment,201,,jersey-monolith-billing 1-46,text,true,,241,338,65,65,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2152,0,1
-1745566924587,4577,SC0107001-FeePayment,201,,jersey-monolith-billing 1-23,text,true,,241,338,64,64,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4577,0,0
-1745566927191,1979,SC0107001-FeePayment,201,,jersey-monolith-billing 1-49,text,true,,241,338,63,63,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1979,0,1
-1745566927085,2169,SC0107001-FeePayment,201,,jersey-monolith-billing 1-48,text,true,,241,338,62,62,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2169,0,1
-1745566923088,6237,SC0107001-FeePayment,201,,jersey-monolith-billing 1-8,text,true,,241,338,61,61,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6237,0,1
-1745566927784,1547,SC0107001-FeePayment,201,,jersey-monolith-billing 1-55,text,true,,241,338,60,60,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1547,0,1
-1745566927984,1525,SC0107001-FeePayment,201,,jersey-monolith-billing 1-57,text,true,,241,338,59,59,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1525,0,0
-1745566927485,2147,SC0107001-FeePayment,201,,jersey-monolith-billing 1-52,text,true,,241,338,58,58,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2147,0,1
-1745566927684,2094,SC0107001-FeePayment,201,,jersey-monolith-billing 1-54,text,true,,241,338,57,57,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2094,0,0
-1745566922491,7397,SC0107001-FeePayment,201,,jersey-monolith-billing 1-2,text,true,,241,338,56,56,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7397,0,1
-1745566928583,1576,SC0107001-FeePayment,201,,jersey-monolith-billing 1-63,text,true,,241,338,55,55,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1576,0,1
-1745566926285,3887,SC0107001-FeePayment,201,,jersey-monolith-billing 1-40,text,true,,241,338,54,54,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3887,0,0
-1745566922791,7493,SC0107001-FeePayment,201,,jersey-monolith-billing 1-5,text,true,,241,338,53,53,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7493,0,0
-1745566928185,2155,SC0107001-FeePayment,201,,jersey-monolith-billing 1-59,text,true,,241,338,52,52,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2155,0,0
-1745566928284,2112,SC0107001-FeePayment,201,,jersey-monolith-billing 1-60,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2112,0,0
-1745566928885,1568,SC0107001-FeePayment,201,,jersey-monolith-billing 1-66,text,true,,241,338,50,50,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1568,0,1
-1745566928485,2034,SC0107001-FeePayment,201,,jersey-monolith-billing 1-62,text,true,,241,338,49,49,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2034,0,1
-1745566929084,1610,SC0107001-FeePayment,201,,jersey-monolith-billing 1-68,text,true,,241,338,48,48,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1610,0,1
-1745566929184,1546,SC0107001-FeePayment,201,,jersey-monolith-billing 1-69,text,true,,241,338,47,47,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1546,0,0
-1745566928685,2051,SC0107001-FeePayment,201,,jersey-monolith-billing 1-64,text,true,,241,338,46,46,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2051,0,1
-1745566922590,8199,SC0107001-FeePayment,201,,jersey-monolith-billing 1-3,text,true,,241,338,45,45,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,8199,0,1
-1745566928785,2133,SC0107001-FeePayment,201,,jersey-monolith-billing 1-65,text,true,,241,338,44,44,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2133,0,0
-1745566929384,1599,SC0107001-FeePayment,201,,jersey-monolith-billing 1-71,text,true,,241,338,43,43,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1599,0,1
-1745566929484,1598,SC0107001-FeePayment,201,,jersey-monolith-billing 1-72,text,true,,241,338,42,42,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1598,0,1
-1745566929684,1564,SC0107001-FeePayment,201,,jersey-monolith-billing 1-74,text,true,,241,338,41,41,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1564,0,1
-1745566923487,7804,SC0107001-FeePayment,201,,jersey-monolith-billing 1-12,text,true,,241,338,40,40,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7804,0,1
-1745566930085,1608,SC0107001-FeePayment,201,,jersey-monolith-billing 1-78,text,true,,241,338,39,39,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1608,0,3
-1745566924286,7483,SC0107001-FeePayment,201,,jersey-monolith-billing 1-20,text,true,,241,338,38,38,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7483,0,1
-1745566930286,1565,SC0107001-FeePayment,201,,jersey-monolith-billing 1-80,text,true,,241,338,37,37,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1565,0,1
-1745566929786,2158,SC0107001-FeePayment,201,,jersey-monolith-billing 1-75,text,true,,241,338,36,36,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2158,0,0
-1745566926784,5173,SC0107001-FeePayment,201,,jersey-monolith-billing 1-45,text,true,,241,338,35,35,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5173,0,1
-1745566926185,5779,SC0107001-FeePayment,201,,jersey-monolith-billing 1-39,text,true,,241,338,34,34,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5779,0,0
-1745566929885,2152,SC0107001-FeePayment,201,,jersey-monolith-billing 1-76,text,true,,241,338,33,33,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2152,0,2
-1745566930483,1600,SC0107001-FeePayment,201,,jersey-monolith-billing 1-82,text,true,,241,338,32,32,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1599,0,1
-1745566930749,1615,SC0107001-FeePayment,201,,jersey-monolith-billing 1-84,text,true,,241,338,31,31,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1615,0,0
-1745566930391,2126,SC0107001-FeePayment,201,,jersey-monolith-billing 1-81,text,true,,241,338,30,30,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2126,0,1
-1745566930884,1684,SC0107001-FeePayment,201,,jersey-monolith-billing 1-86,text,true,,241,338,29,29,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1684,0,1
-1745566930985,1648,SC0107001-FeePayment,201,,jersey-monolith-billing 1-87,text,true,,241,338,28,28,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1648,0,1
-1745566925785,6995,SC0107001-FeePayment,201,,jersey-monolith-billing 1-35,text,true,,241,338,27,27,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6995,0,1
-1745566931084,1697,SC0107001-FeePayment,201,,jersey-monolith-billing 1-88,text,true,,241,338,26,26,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1697,0,1
-1745566926084,6937,SC0107001-FeePayment,201,,jersey-monolith-billing 1-38,text,true,,241,338,25,25,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6937,0,1
-1745566931783,1597,SC0107001-FeePayment,201,,jersey-monolith-billing 1-95,text,true,,241,338,24,24,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1597,0,1
-1745566931284,2173,SC0107001-FeePayment,201,,jersey-monolith-billing 1-90,text,true,,241,338,23,23,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2173,0,1
-1745566928385,5162,SC0107001-FeePayment,201,,jersey-monolith-billing 1-61,text,true,,241,338,22,22,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5162,0,0
-1745566928983,4569,SC0107001-FeePayment,201,,jersey-monolith-billing 1-67,text,true,,241,338,21,21,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4569,0,1
-1745566929285,4267,SC0107001-FeePayment,201,,jersey-monolith-billing 1-70,text,true,,241,338,21,21,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,4267,0,1
-1745566931983,1636,SC0107001-FeePayment,201,,jersey-monolith-billing 1-97,text,true,,241,338,19,19,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1636,0,1
-1745566932084,1642,SC0107001-FeePayment,201,,jersey-monolith-billing 1-98,text,true,,241,338,18,18,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1642,0,1
-1745566931586,2181,SC0107001-FeePayment,201,,jersey-monolith-billing 1-93,text,true,,241,338,17,17,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,2181,0,1
-1745566932183,1602,SC0107001-FeePayment,201,,jersey-monolith-billing 1-99,text,true,,241,338,16,16,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1602,0,0
-1745566932285,1581,SC0107001-FeePayment,201,,jersey-monolith-billing 1-100,text,true,,241,338,15,15,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,1581,0,0
-1745566926992,7158,SC0107001-FeePayment,201,,jersey-monolith-billing 1-47,text,true,,241,338,14,14,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7158,0,1
-1745566930783,3638,SC0107001-FeePayment,201,,jersey-monolith-billing 1-85,text,true,,241,338,13,13,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,3638,0,1
-1745566928085,6340,SC0107001-FeePayment,201,,jersey-monolith-billing 1-58,text,true,,241,338,12,12,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6340,0,1
-1745566927585,7471,SC0107001-FeePayment,201,,jersey-monolith-billing 1-53,text,true,,241,338,11,11,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7471,0,1
-1745566927884,7477,SC0107001-FeePayment,201,,jersey-monolith-billing 1-56,text,true,,241,338,10,10,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7477,0,0
-1745566930185,5354,SC0107001-FeePayment,201,,jersey-monolith-billing 1-79,text,true,,241,338,9,9,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5354,0,3
-1745566930583,5844,SC0107001-FeePayment,201,,jersey-monolith-billing 1-83,text,true,,241,338,8,8,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5844,0,1
-1745566931184,5476,SC0107001-FeePayment,201,,jersey-monolith-billing 1-89,text,true,,241,338,7,7,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,5476,0,0
-1745566929984,7213,SC0107001-FeePayment,201,,jersey-monolith-billing 1-77,text,true,,241,338,6,6,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7213,0,0
-1745566929584,7979,SC0107001-FeePayment,201,,jersey-monolith-billing 1-73,text,true,,241,338,5,5,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7979,0,1
-1745566931483,6418,SC0107001-FeePayment,201,,jersey-monolith-billing 1-92,text,true,,241,338,4,4,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6418,0,1
-1745566931386,6946,SC0107001-FeePayment,201,,jersey-monolith-billing 1-91,text,true,,241,338,3,3,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,6946,0,0
-1745566931684,7093,SC0107001-FeePayment,201,,jersey-monolith-billing 1-94,text,true,,241,338,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7093,0,1
-1745566931882,7399,SC0107001-FeePayment,201,,jersey-monolith-billing 1-96,text,true,,241,338,1,1,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,7399,0,1
-1745580250931,37,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-1,text,false,,2595,0,52,52,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,37
-1745580250932,37,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-2,text,false,,2595,0,52,52,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,37
-1745580251032,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-3,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580251130,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-4,text,false,,2595,0,50,50,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580251233,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-5,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580251342,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-6,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580251438,0,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-7,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,0
-1745580251539,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-8,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580251634,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-9,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580251731,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-10,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580251842,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-11,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,4
-1745580251938,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-12,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580252032,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-13,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580252142,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-14,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580252238,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-15,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580252330,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-16,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580252429,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-17,text,false,,2595,0,50,50,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580252528,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-18,text,false,,2595,0,50,50,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580252628,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-19,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580252730,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-20,text,false,,2595,0,50,50,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580252828,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-21,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580252927,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-22,text,false,,2595,0,50,50,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580253029,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-23,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,4
-1745580253128,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-24,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580253229,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-25,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,4
-1745580253334,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-26,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580253439,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-27,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580253533,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-28,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580253645,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-29,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580253739,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-30,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580253837,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-31,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,4
-1745580253933,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-32,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,4
-1745580254029,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-33,text,false,,2595,0,50,50,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580254140,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-34,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580254235,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-35,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580254331,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-36,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580254442,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-37,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,4
-1745580254538,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-38,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580254635,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-39,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580254745,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-40,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580254842,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-41,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580254938,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-42,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,4
-1745580255048,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-43,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580255145,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-44,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580255241,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-45,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580255354,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-46,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580255443,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-47,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580255536,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-48,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580255645,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-49,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,4
-1745580255737,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-50,text,false,,2595,0,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580255837,0,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-51,text,false,,2595,0,50,50,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,0
-1745580255946,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-52,text,false,,2595,0,49,49,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580256036,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-53,text,false,,2595,0,48,48,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580256146,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-54,text,false,,2595,0,47,47,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580256241,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-55,text,false,,2595,0,46,46,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580256338,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-56,text,false,,2595,0,45,45,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580256449,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-57,text,false,,2595,0,44,44,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580256544,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-58,text,false,,2595,0,43,43,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580256648,0,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-59,text,false,,2595,0,42,42,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,0
-1745580256736,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-60,text,false,,2595,0,41,41,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580256846,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-61,text,false,,2595,0,40,40,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580256943,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-62,text,false,,2595,0,39,39,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580257039,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-63,text,false,,2595,0,38,38,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580257152,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-64,text,false,,2595,0,37,37,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,4
-1745580257252,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-65,text,false,,2595,0,36,36,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580257342,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-66,text,false,,2595,0,35,35,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580257445,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-67,text,false,,2595,0,34,34,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580257541,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-68,text,false,,2595,0,33,33,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580257634,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-69,text,false,,2595,0,32,32,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580257742,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-70,text,false,,2595,0,31,31,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580257844,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-71,text,false,,2595,0,30,30,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580257955,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-72,text,false,,2595,0,29,29,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580258033,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-73,text,false,,2595,0,28,28,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580258127,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-74,text,false,,2595,0,27,27,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580258244,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-75,text,false,,2595,0,26,26,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580258336,0,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-76,text,false,,2595,0,25,25,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,0
-1745580258447,0,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-77,text,false,,2595,0,24,24,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,0
-1745580258542,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-78,text,false,,2595,0,23,23,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580258634,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-79,text,false,,2595,0,22,22,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580258746,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-80,text,false,,2595,0,21,21,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580258843,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-81,text,false,,2595,0,20,20,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580258941,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-82,text,false,,2595,0,19,19,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580259125,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-83,text,false,,2595,0,18,18,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580259157,4,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-84,text,false,,2595,0,17,17,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,4
-1745580259238,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-85,text,false,,2595,0,16,16,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580259333,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-86,text,false,,2595,0,15,15,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580259457,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-87,text,false,,2595,0,14,14,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580259549,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-88,text,false,,2595,0,13,13,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580259643,0,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-89,text,false,,2595,0,12,12,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,0
-1745580259743,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-90,text,false,,2595,0,11,11,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580259839,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-91,text,false,,2595,0,10,10,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580259947,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-92,text,false,,2595,0,9,9,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580260036,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-93,text,false,,2595,0,8,8,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580260144,2,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-94,text,false,,2595,0,7,7,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,2
-1745580260255,3,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-95,text,false,,2595,0,6,6,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,3
-1745580260350,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-96,text,false,,2595,0,5,5,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580260458,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-97,text,false,,2595,0,4,4,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580260542,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-98,text,false,,2595,0,3,3,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580260632,1,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-99,text,false,,2595,0,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,1
-1745580260743,0,SC0107001-FeePayment,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:8071 [/127.0.0.1] failed: Connection refused: connect,jersey-monolith-billing 1-100,text,false,,2595,0,1,1,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,0,0,0
-1745580361165,133,SC0107001-FeePayment,201,,jersey-monolith-billing 1-8,text,true,,241,338,59,59,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,127,0,1
-1745580360865,433,SC0107001-FeePayment,201,,jersey-monolith-billing 1-5,text,true,,241,338,59,59,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,427,0,1
-1745580360573,725,SC0107001-FeePayment,201,,jersey-monolith-billing 1-2,text,true,,241,338,59,59,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,723,0,12
-1745580360673,637,SC0107001-FeePayment,201,,jersey-monolith-billing 1-3,text,true,,241,338,56,56,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,637,0,0
-1745580361065,245,SC0107001-FeePayment,201,,jersey-monolith-billing 1-7,text,true,,241,338,56,56,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,245,0,0
-1745580360765,547,SC0107001-FeePayment,201,,jersey-monolith-billing 1-4,text,true,,241,338,54,54,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,547,0,0
-1745580360550,749,SC0107001-FeePayment,201,,jersey-monolith-billing 1-1,text,true,,241,338,53,53,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,749,0,21
-1745580360966,347,SC0107001-FeePayment,201,,jersey-monolith-billing 1-6,text,true,,241,338,53,53,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,347,0,1
-1745580361276,81,SC0107001-FeePayment,201,,jersey-monolith-billing 1-9,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,81,0,1
-1745580361377,70,SC0107001-FeePayment,201,,jersey-monolith-billing 1-10,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,70,0,1
-1745580361485,58,SC0107001-FeePayment,201,,jersey-monolith-billing 1-11,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,58,0,1
-1745580361562,48,SC0107001-FeePayment,201,,jersey-monolith-billing 1-12,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,48,0,1
-1745580361666,187,SC0107001-FeePayment,201,,jersey-monolith-billing 1-13,text,true,,241,338,52,52,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,187,0,2
-1745580361765,115,SC0107001-FeePayment,201,,jersey-monolith-billing 1-14,text,true,,241,338,52,52,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,115,0,3
-1745580361862,50,SC0107001-FeePayment,201,,jersey-monolith-billing 1-15,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,50,0,1
-1745580361963,41,SC0107001-FeePayment,201,,jersey-monolith-billing 1-16,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,41,0,0
-1745580362064,42,SC0107001-FeePayment,201,,jersey-monolith-billing 1-17,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,42,0,0
-1745580362161,35,SC0107001-FeePayment,201,,jersey-monolith-billing 1-18,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,35,0,1
-1745580362563,56,SC0107001-FeePayment,201,,jersey-monolith-billing 1-21,text,true,,241,338,54,54,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,56,0,2
-1745580362564,60,SC0107001-FeePayment,201,,jersey-monolith-billing 1-22,text,true,,241,338,53,53,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,60,0,2
-1745580362563,62,SC0107001-FeePayment,201,,jersey-monolith-billing 1-19,text,true,,241,338,52,52,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,62,0,2
-1745580362563,68,SC0107001-FeePayment,201,,jersey-monolith-billing 1-20,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,68,0,2
-1745580362662,41,SC0107001-FeePayment,201,,jersey-monolith-billing 1-23,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,41,0,1
-1745580362762,41,SC0107001-FeePayment,201,,jersey-monolith-billing 1-24,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,41,0,2
-1745580362865,67,SC0107001-FeePayment,201,,jersey-monolith-billing 1-25,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,67,0,2
-1745580362963,35,SC0107001-FeePayment,201,,jersey-monolith-billing 1-26,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,35,0,0
-1745580363063,77,SC0107001-FeePayment,201,,jersey-monolith-billing 1-27,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,77,0,2
-1745580363162,35,SC0107001-FeePayment,201,,jersey-monolith-billing 1-28,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,35,0,1
-1745580363262,31,SC0107001-FeePayment,201,,jersey-monolith-billing 1-29,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,31,0,1
-1745580363361,42,SC0107001-FeePayment,201,,jersey-monolith-billing 1-30,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,42,0,1
-1745580363475,33,SC0107001-FeePayment,201,,jersey-monolith-billing 1-31,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,33,0,1
-1745580363566,71,SC0107001-FeePayment,201,,jersey-monolith-billing 1-32,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,71,0,2
-1745580363662,29,SC0107001-FeePayment,201,,jersey-monolith-billing 1-33,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,29,0,0
-1745580363761,32,SC0107001-FeePayment,201,,jersey-monolith-billing 1-34,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,32,0,1
-1745580363862,28,SC0107001-FeePayment,201,,jersey-monolith-billing 1-35,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,28,0,1
-1745580363963,29,SC0107001-FeePayment,201,,jersey-monolith-billing 1-36,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,29,0,1
-1745580364062,29,SC0107001-FeePayment,201,,jersey-monolith-billing 1-37,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,29,0,1
-1745580364164,37,SC0107001-FeePayment,201,,jersey-monolith-billing 1-38,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,37,0,2
-1745580364263,30,SC0107001-FeePayment,201,,jersey-monolith-billing 1-39,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,30,0,1
-1745580364365,28,SC0107001-FeePayment,201,,jersey-monolith-billing 1-40,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,28,0,0
-1745580364475,34,SC0107001-FeePayment,201,,jersey-monolith-billing 1-41,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,34,0,1
-1745580364562,27,SC0107001-FeePayment,201,,jersey-monolith-billing 1-42,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,27,0,1
-1745580364663,37,SC0107001-FeePayment,201,,jersey-monolith-billing 1-43,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,36,0,1
-1745580364763,29,SC0107001-FeePayment,201,,jersey-monolith-billing 1-44,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,29,0,1
-1745580364864,28,SC0107001-FeePayment,201,,jersey-monolith-billing 1-45,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,28,0,1
-1745580364961,32,SC0107001-FeePayment,201,,jersey-monolith-billing 1-46,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,32,0,1
-1745580365063,87,SC0107001-FeePayment,201,,jersey-monolith-billing 1-47,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,87,0,2
-1745580365162,27,SC0107001-FeePayment,201,,jersey-monolith-billing 1-48,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,27,0,0
-1745580365264,49,SC0107001-FeePayment,201,,jersey-monolith-billing 1-49,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,49,0,3
-1745580365376,27,SC0107001-FeePayment,201,,jersey-monolith-billing 1-50,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,27,0,1
-1745580365469,26,SC0107001-FeePayment,201,,jersey-monolith-billing 1-51,text,true,,241,338,50,50,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,26,0,0
-1745580365564,30,SC0107001-FeePayment,201,,jersey-monolith-billing 1-52,text,true,,241,338,49,49,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,30,0,1
-1745580365674,33,SC0107001-FeePayment,201,,jersey-monolith-billing 1-53,text,true,,241,338,48,48,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,33,0,1
-1745580365770,43,SC0107001-FeePayment,201,,jersey-monolith-billing 1-54,text,true,,241,338,47,47,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,43,0,3
-1745580365861,29,SC0107001-FeePayment,201,,jersey-monolith-billing 1-55,text,true,,241,338,46,46,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,29,0,1
-1745580365973,64,SC0107001-FeePayment,201,,jersey-monolith-billing 1-56,text,true,,241,338,45,45,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,64,0,3
-1745580366066,28,SC0107001-FeePayment,201,,jersey-monolith-billing 1-57,text,true,,241,338,44,44,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,28,0,1
-1745580366176,25,SC0107001-FeePayment,201,,jersey-monolith-billing 1-58,text,true,,241,338,43,43,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,24,0,0
-1745580366271,26,SC0107001-FeePayment,201,,jersey-monolith-billing 1-59,text,true,,241,338,42,42,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,26,0,0
-1745580366365,29,SC0107001-FeePayment,201,,jersey-monolith-billing 1-60,text,true,,241,338,41,41,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,28,0,0
-1745580366475,29,SC0107001-FeePayment,201,,jersey-monolith-billing 1-61,text,true,,241,338,40,40,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,29,0,1
-1745580366570,30,SC0107001-FeePayment,201,,jersey-monolith-billing 1-62,text,true,,241,338,39,39,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,30,0,1
-1745580366674,52,SC0107001-FeePayment,201,,jersey-monolith-billing 1-63,text,true,,241,338,38,38,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,52,0,3
-1745580366767,30,SC0107001-FeePayment,201,,jersey-monolith-billing 1-64,text,true,,241,338,37,37,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,30,0,1
-1745580366861,28,SC0107001-FeePayment,201,,jersey-monolith-billing 1-65,text,true,,241,338,37,37,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,28,0,1
-1745580366962,29,SC0107001-FeePayment,201,,jersey-monolith-billing 1-66,text,true,,241,338,37,37,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,29,0,0
-1745580367075,24,SC0107001-FeePayment,201,,jersey-monolith-billing 1-67,text,true,,241,338,34,34,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,24,0,0
-1745580367170,28,SC0107001-FeePayment,201,,jersey-monolith-billing 1-68,text,true,,241,338,33,33,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,28,0,1
-1745580367266,68,SC0107001-FeePayment,201,,jersey-monolith-billing 1-69,text,true,,241,338,32,32,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,68,0,3
-1745580367376,28,SC0107001-FeePayment,201,,jersey-monolith-billing 1-70,text,true,,241,338,31,31,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,28,0,0
-1745580367471,28,SC0107001-FeePayment,201,,jersey-monolith-billing 1-71,text,true,,241,338,30,30,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,27,0,1
-1745580367566,24,SC0107001-FeePayment,201,,jersey-monolith-billing 1-72,text,true,,241,338,29,29,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,24,0,1
-1745580367662,26,SC0107001-FeePayment,201,,jersey-monolith-billing 1-73,text,true,,241,338,28,28,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,26,0,1
-1745580367929,33,SC0107001-FeePayment,201,,jersey-monolith-billing 1-75,text,true,,241,338,27,27,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,33,0,0
-1745580367929,35,SC0107001-FeePayment,201,,jersey-monolith-billing 1-74,text,true,,241,338,26,26,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,35,0,0
-1745580367960,29,SC0107001-FeePayment,201,,jersey-monolith-billing 1-76,text,true,,241,338,25,25,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,29,0,1
-1745580368069,28,SC0107001-FeePayment,201,,jersey-monolith-billing 1-77,text,true,,241,338,24,24,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,28,0,1
-1745580368164,26,SC0107001-FeePayment,201,,jersey-monolith-billing 1-78,text,true,,241,338,23,23,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,26,0,1
-1745580368272,27,SC0107001-FeePayment,201,,jersey-monolith-billing 1-79,text,true,,241,338,22,22,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,27,0,1
-1745580368367,27,SC0107001-FeePayment,201,,jersey-monolith-billing 1-80,text,true,,241,338,21,21,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,27,0,1
-1745580368461,30,SC0107001-FeePayment,201,,jersey-monolith-billing 1-81,text,true,,241,338,20,20,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,30,0,1
-1745580368572,27,SC0107001-FeePayment,201,,jersey-monolith-billing 1-82,text,true,,241,338,19,19,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,27,0,1
-1745580368667,70,SC0107001-FeePayment,201,,jersey-monolith-billing 1-83,text,true,,241,338,18,18,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,70,0,2
-1745580368763,29,SC0107001-FeePayment,201,,jersey-monolith-billing 1-84,text,true,,241,338,17,17,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,29,0,1
-1745580368873,59,SC0107001-FeePayment,201,,jersey-monolith-billing 1-85,text,true,,241,338,16,16,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,59,0,2
-1745580368964,32,SC0107001-FeePayment,201,,jersey-monolith-billing 1-86,text,true,,241,338,15,15,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,32,0,1
-1745580369072,26,SC0107001-FeePayment,201,,jersey-monolith-billing 1-87,text,true,,241,338,14,14,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,26,0,1
-1745580369165,29,SC0107001-FeePayment,201,,jersey-monolith-billing 1-88,text,true,,241,338,13,13,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,29,0,1
-1745580369275,27,SC0107001-FeePayment,201,,jersey-monolith-billing 1-89,text,true,,241,338,12,12,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,27,0,1
-1745580369369,28,SC0107001-FeePayment,201,,jersey-monolith-billing 1-90,text,true,,241,338,11,11,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,28,0,1
-1745580369463,28,SC0107001-FeePayment,201,,jersey-monolith-billing 1-91,text,true,,241,338,10,10,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,28,0,1
-1745580369573,27,SC0107001-FeePayment,201,,jersey-monolith-billing 1-92,text,true,,241,338,9,9,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,27,0,1
-1745580369667,40,SC0107001-FeePayment,201,,jersey-monolith-billing 1-93,text,true,,241,338,8,8,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,40,0,3
-1745580369775,28,SC0107001-FeePayment,201,,jersey-monolith-billing 1-94,text,true,,241,338,7,7,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,28,0,1
-1745580369867,27,SC0107001-FeePayment,201,,jersey-monolith-billing 1-95,text,true,,241,338,6,6,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,26,0,1
-1745580369962,25,SC0107001-FeePayment,201,,jersey-monolith-billing 1-96,text,true,,241,338,5,5,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,25,0,0
-1745580370071,26,SC0107001-FeePayment,201,,jersey-monolith-billing 1-97,text,true,,241,338,4,4,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,26,0,1
-1745580370166,27,SC0107001-FeePayment,201,,jersey-monolith-billing 1-98,text,true,,241,338,3,3,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,27,0,1
-1745580370276,28,SC0107001-FeePayment,201,,jersey-monolith-billing 1-99,text,true,,241,338,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,28,0,1
-1745580370370,31,SC0107001-FeePayment,201,,jersey-monolith-billing 1-100,text,true,,241,338,1,1,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,31,0,1
+1745636313994,44,SC0107001-FeePayment,201,,jersey-monolith-billing 1-2,text,true,,241,338,52,52,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,41,0,10
+1745636313982,55,SC0107001-FeePayment,201,,jersey-monolith-billing 1-1,text,true,,241,338,52,52,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,52,0,21
+1745636314094,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-3,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,1
+1745636314194,27,SC0107001-FeePayment,201,,jersey-monolith-billing 1-4,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,27,0,1
+1745636314294,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-5,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636314392,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-6,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,1
+1745636314492,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-7,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,1
+1745636314592,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-8,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636314691,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-9,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636314791,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-10,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,0
+1745636314900,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-11,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,1
+1745636314993,65,SC0107001-FeePayment,201,,jersey-monolith-billing 1-12,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,65,0,3
+1745636315091,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-13,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636315190,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-14,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,0
+1745636315290,25,SC0107001-FeePayment,201,,jersey-monolith-billing 1-15,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,25,0,1
+1745636315390,25,SC0107001-FeePayment,201,,jersey-monolith-billing 1-16,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,25,0,1
+1745636315490,24,SC0107001-FeePayment,201,,jersey-monolith-billing 1-17,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,24,0,0
+1745636315595,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-18,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636315703,24,SC0107001-FeePayment,201,,jersey-monolith-billing 1-19,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,24,0,0
+1745636315795,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-20,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,0
+1745636315903,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-21,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,0
+1745636315992,51,SC0107001-FeePayment,201,,jersey-monolith-billing 1-22,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,51,0,3
+1745636316092,45,SC0107001-FeePayment,201,,jersey-monolith-billing 1-23,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,45,0,3
+1745636316190,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-24,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,1
+1745636316291,66,SC0107001-FeePayment,201,,jersey-monolith-billing 1-25,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,66,0,2
+1745636316392,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-26,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636316490,25,SC0107001-FeePayment,201,,jersey-monolith-billing 1-27,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,25,0,1
+1745636316590,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-28,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636316688,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-29,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636316791,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-30,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636316892,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-31,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,0
+1745636316991,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-32,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,1
+1745636317090,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-33,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636317191,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-34,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636317291,20,SC0107001-FeePayment,201,,jersey-monolith-billing 1-35,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,20,0,1
+1745636317390,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-36,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636317490,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-37,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,1
+1745636317591,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-38,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636317690,24,SC0107001-FeePayment,201,,jersey-monolith-billing 1-39,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,24,0,0
+1745636317788,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-40,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636317896,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-41,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636317992,26,SC0107001-FeePayment,201,,jersey-monolith-billing 1-42,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,26,0,1
+1745636318090,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-43,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636318190,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-44,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636318290,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-45,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636318388,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-46,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636318491,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-47,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636318591,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-48,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636318690,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-49,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636318792,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-50,text,true,,241,338,51,51,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636318895,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-51,text,true,,241,338,50,50,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636318988,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-52,text,true,,241,338,49,49,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,1
+1745636319089,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-53,text,true,,241,338,48,48,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,0
+1745636319189,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-54,text,true,,241,338,47,47,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636319291,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-55,text,true,,241,338,46,46,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,2
+1745636319388,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-56,text,true,,241,338,45,45,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636319488,27,SC0107001-FeePayment,201,,jersey-monolith-billing 1-57,text,true,,241,338,44,44,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,27,0,1
+1745636319589,25,SC0107001-FeePayment,201,,jersey-monolith-billing 1-58,text,true,,241,338,43,43,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,25,0,1
+1745636319689,25,SC0107001-FeePayment,201,,jersey-monolith-billing 1-59,text,true,,241,338,42,42,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,25,0,0
+1745636319788,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-60,text,true,,241,338,41,41,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636319898,24,SC0107001-FeePayment,201,,jersey-monolith-billing 1-61,text,true,,241,338,40,40,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,24,0,1
+1745636319990,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-62,text,true,,241,338,39,39,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636320087,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-63,text,true,,241,338,38,38,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636320188,34,SC0107001-FeePayment,201,,jersey-monolith-billing 1-64,text,true,,241,338,37,37,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,33,0,4
+1745636320290,68,SC0107001-FeePayment,201,,jersey-monolith-billing 1-65,text,true,,241,338,36,36,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,68,0,2
+1745636320390,61,SC0107001-FeePayment,201,,jersey-monolith-billing 1-66,text,true,,241,338,35,35,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,61,0,3
+1745636320489,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-67,text,true,,241,338,34,34,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636320588,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-68,text,true,,241,338,33,33,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636320689,20,SC0107001-FeePayment,201,,jersey-monolith-billing 1-69,text,true,,241,338,32,32,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,20,0,0
+1745636320788,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-70,text,true,,241,338,31,31,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636320902,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-71,text,true,,241,338,30,30,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636320991,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-72,text,true,,241,338,29,29,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636321090,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-73,text,true,,241,338,28,28,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,1
+1745636321187,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-74,text,true,,241,338,27,27,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,1
+1745636321289,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-75,text,true,,241,338,26,26,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636321389,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-76,text,true,,241,338,25,25,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636321490,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-77,text,true,,241,338,24,24,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636321588,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-78,text,true,,241,338,23,23,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636321688,20,SC0107001-FeePayment,201,,jersey-monolith-billing 1-79,text,true,,241,338,22,22,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,20,0,0
+1745636321788,76,SC0107001-FeePayment,201,,jersey-monolith-billing 1-80,text,true,,241,338,21,21,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,76,0,3
+1745636321890,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-81,text,true,,241,338,20,20,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636321989,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-82,text,true,,241,338,19,19,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,1
+1745636322089,36,SC0107001-FeePayment,201,,jersey-monolith-billing 1-83,text,true,,241,338,18,18,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,36,0,3
+1745636322188,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-84,text,true,,241,338,17,17,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636322287,24,SC0107001-FeePayment,201,,jersey-monolith-billing 1-85,text,true,,241,338,16,16,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,24,0,1
+1745636322389,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-86,text,true,,241,338,15,15,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,0
+1745636322489,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-87,text,true,,241,338,14,14,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636322589,26,SC0107001-FeePayment,201,,jersey-monolith-billing 1-88,text,true,,241,338,13,13,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,26,0,1
+1745636322688,26,SC0107001-FeePayment,201,,jersey-monolith-billing 1-89,text,true,,241,338,12,12,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,26,0,1
+1745636322789,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-90,text,true,,241,338,11,11,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636322893,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-91,text,true,,241,338,10,10,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636322990,20,SC0107001-FeePayment,201,,jersey-monolith-billing 1-92,text,true,,241,338,9,9,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,20,0,1
+1745636323098,22,SC0107001-FeePayment,201,,jersey-monolith-billing 1-93,text,true,,241,338,8,8,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,22,0,0
+1745636323187,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-94,text,true,,241,338,7,7,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636323288,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-95,text,true,,241,338,6,6,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
+1745636323388,24,SC0107001-FeePayment,201,,jersey-monolith-billing 1-96,text,true,,241,338,5,5,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,24,0,1
+1745636323490,44,SC0107001-FeePayment,201,,jersey-monolith-billing 1-97,text,true,,241,338,4,4,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,44,0,3
+1745636323589,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-98,text,true,,241,338,3,3,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,0
+1745636323689,23,SC0107001-FeePayment,201,,jersey-monolith-billing 1-99,text,true,,241,338,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,23,0,1
+1745636323802,21,SC0107001-FeePayment,201,,jersey-monolith-billing 1-100,text,true,,241,338,1,1,http://127.0.0.1:8071/jersey-monolith/res/SC0107001,21,0,1
