@@ -1,0 +1,22 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1.74607E+12,55,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-1,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,52,0,21
+1.74607E+12,27,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-2,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,27,0,1
+1.74607E+12,35,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-3,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,35,0,3
+1.74607E+12,68,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-4,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,68,0,3
+1.74607E+12,28,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-5,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,28,0,2
+1.74607E+12,56,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-6,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,56,0,2
+1.74607E+12,76,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-7,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,76,0,3
+1.74607E+12,39,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-8,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,39,0,2
+1.74607E+12,53,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-9,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,53,0,2
+1.74607E+12,28,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-10,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,28,0,1
+1.74607E+12,28,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-11,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,28,0,1
+1.74607E+12,30,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-12,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,30,0,1
+1.74607E+12,103,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-13,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,103,0,3
+1.74607E+12,30,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-14,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,30,0,2
+1.74607E+12,62,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-15,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,62,0,3
+1.74607E+12,31,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-16,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,31,0,3
+1.74607E+12,55,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-17,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,54,0,2
+1.74607E+12,54,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-18,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,54,0,1
+1.74607E+12,55,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-19,text,TRUE,,241,294,2,2,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,55,0,2
+1.74607E+12,98,SC0106002-DisputeNotation,200,,jersey-monolith-dispute 1-20,text,TRUE,,241,294,1,1,http://127.0.0.1:8071/jersey-monolith/res/SC0106002,98,0,1
+,50.55,,,,,,,,,,,,,,,
