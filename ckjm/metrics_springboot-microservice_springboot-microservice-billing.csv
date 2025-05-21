@@ -1,0 +1,14 @@
+ClassName,WMC,DIT,NOC,CBO,RFC,LCOM,Ca,NPM 
+com.ntou.APIApplication,2,1,0,2,4,1,0,2
+com.ntou.GlobalUrlPrefixConfigCreditcard,3,1,0,3,8,3,0,2
+com.ntou.creditcard.billing.feepayment.FeePayment,5,1,0,22,63,2,0,2
+com.ntou.creditcard.billing.feepayment.FeePaymentController,2,1,0,5,5,1,0,2
+com.ntou.creditcard.billing.feepayment.FeePaymentRC,7,2,0,1,10,13,0,4
+com.ntou.creditcard.billing.feepayment.FeePaymentReq,16,1,0,2,22,76,0,15
+com.ntou.creditcard.billing.feepayment.FeePaymentRes,1,0,0,1,2,0,0,1
+com.ntou.creditcard.billing.generatebill.GenerateBill,6,1,0,24,87,11,0,2
+com.ntou.creditcard.billing.generatebill.GenerateBillController,2,0,0,6,5,1,0,2
+com.ntou.creditcard.billing.generatebill.GenerateBillRC,7,2,0,1,10,13,0,4
+com.ntou.creditcard.billing.generatebill.GenerateBillReq,12,1,0,2,18,38,0,11
+com.ntou.creditcard.billing.generatebill.GenerateBillRes,1,0,0,1,2,0,0,1
+com.ntou.creditcard.billing.generatebill.GenerateBillTask,3,1,0,4,7,1,0,2
