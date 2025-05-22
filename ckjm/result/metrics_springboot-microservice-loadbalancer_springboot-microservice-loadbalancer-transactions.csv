@@ -1,13 +1,14 @@
-ClassName,WMC,DIT,NOC,CBO,RFC,LCOM,Ca,NPM 
-com.ntou.APIApplication,2,1,0,2,4,1,0,2
-com.ntou.GlobalUrlPrefixConfigCreditcard,3,1,0,3,8,3,0,2
-com.ntou.creditcard.transactions.transaction.Transaction,4,1,0,22,73,2,0,2
-com.ntou.creditcard.transactions.transaction.TransactionController,2,1,0,5,5,1,0,2
-com.ntou.creditcard.transactions.transaction.TransactionRC,7,2,0,1,10,13,0,4
-com.ntou.creditcard.transactions.transaction.TransactionReq,36,1,0,2,42,482,0,35
-com.ntou.creditcard.transactions.transaction.TransactionRes,1,0,0,1,2,0,0,1
-com.ntou.creditcard.transactions.transactionquery.TransactionQuery,4,1,0,19,38,2,0,2
-com.ntou.creditcard.transactions.transactionquery.TransactionQueryController,2,1,0,4,10,1,0,2
-com.ntou.creditcard.transactions.transactionquery.TransactionQueryRC,7,2,0,1,10,13,0,4
-com.ntou.creditcard.transactions.transactionquery.TransactionQueryReq,16,1,0,2,22,72,0,15
-com.ntou.creditcard.transactions.transactionquery.TransactionQueryRes,3,0,0,1,4,1,0,3
+ClassName,WMC,DIT,NOC,CBO,RFC,LCOM,Ca,NPM ,12
+com.ntou.APIApplication,2,1,0,2,4,1,0,2,
+com.ntou.GlobalUrlPrefixConfigCreditcard,3,1,0,3,8,3,0,2,
+com.ntou.creditcard.transactions.transaction.Transaction,4,1,0,22,73,2,0,2,
+com.ntou.creditcard.transactions.transaction.TransactionController,2,1,0,5,5,1,0,2,
+com.ntou.creditcard.transactions.transaction.TransactionRC,7,2,0,1,10,13,0,4,
+com.ntou.creditcard.transactions.transaction.TransactionReq,36,1,0,2,42,482,0,35,
+com.ntou.creditcard.transactions.transaction.TransactionRes,1,0,0,1,2,0,0,1,
+com.ntou.creditcard.transactions.transactionquery.TransactionQuery,4,1,0,19,38,2,0,2,
+com.ntou.creditcard.transactions.transactionquery.TransactionQueryController,2,1,0,4,10,1,0,2,
+com.ntou.creditcard.transactions.transactionquery.TransactionQueryRC,7,2,0,1,10,13,0,4,
+com.ntou.creditcard.transactions.transactionquery.TransactionQueryReq,16,1,0,2,22,72,0,15,
+com.ntou.creditcard.transactions.transactionquery.TransactionQueryRes,3,0,0,1,4,1,0,3,
+,7.25,1,0,5.25,19,49.25,0,6.166666667,
