@@ -1,0 +1,8 @@
+ClassName,WMC,DIT,NOC,CBO,RFC,LCOM,Ca,NPM ,6
+com.ntou.APIApplication,2,0,0,3,5,1,0,1,
+com.ntou.creditcard.dispute.disputenotation.DisputeNotation,4,1,0,14,35,2,0,2,
+com.ntou.creditcard.dispute.disputenotation.DisputeNotationController,2,1,0,2,5,1,0,2,
+com.ntou.creditcard.dispute.disputenotation.DisputeNotationRC,7,2,0,1,10,13,0,4,
+com.ntou.creditcard.dispute.disputenotation.DisputeNotationReq,10,1,0,2,16,27,0,9,
+com.ntou.creditcard.dispute.disputenotation.DisputeNotationRes,1,0,0,1,2,0,0,1,
+,4.333333333,0.833333333,0,3.833333333,12.16666667,7.333333333,0,3.166666667,
