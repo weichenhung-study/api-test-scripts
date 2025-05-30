@@ -15,24 +15,30 @@ set "CLASS_LIST=%OUTPUTDIR%class_list.txt"
 del "%METRICS%" >nul 2>nul
 del "%METRICS_RAW%" >nul 2>nul
 del "%CLASS_LIST%" >nul 2>nul
+del error_ckjm.log >nul 2>nul
 
 echo 掃描 class 檔案...
 dir /s /b "%CLASSROOT%\*.class" > "%CLASS_LIST%"
 
-set "CP=runable-ckjm_ext-2.8.jar;%CLASSROOT%"
-for %%j in ("%LIBROOT%\*.jar") do (
-    set "CP=!CP!;%%~fj"
-)
+:: classpath using wildcard (避免太長)
+set "CP=runable-ckjm_ext-2.8.jar;%CLASSROOT%;%LIBROOT%\*"
 
 echo 開始逐檔執行 CKJM 分析...
 for /f "usebackq delims=" %%i in ("%CLASS_LIST%") do (
-    java -cp "!CP!" gr.spinellis.ckjm.MetricsFilter "%%i" >> "%METRICS_RAW%"
+    echo 分析中：%%i
+    java -cp "!CP!" gr.spinellis.ckjm.MetricsFilter "%%i" >> "%METRICS_RAW%" 2>> error_ckjm.log
 )
 
-:: 加入表頭
+:: 檢查是否有輸出檔案
+if not exist "%METRICS_RAW%" (
+    echo 錯誤：未成功產出 %METRICS_RAW%
+    echo 請查看錯誤日誌 error_ckjm.log
+    pause
+    exit /b
+)
+
 echo ClassName,WMC,DIT,NOC,CBO,RFC,LCOM,Ca,Ce,NPM,LCOM3,LOC,DAM,MOA,MFA,CAM,IC,CBM,AMC > "%METRICS%"
 
-:: 過濾 ~ method 行，格式化為 CSV
 powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Content -LiteralPath '%METRICS_RAW%' | Where-Object { $_ -notmatch '^\s*~' } | ForEach-Object { ($_ -replace '\s+', ',') } | Add-Content -LiteralPath '%METRICS%'"
 
 echo 完成分析！結果已寫入 %METRICS%
